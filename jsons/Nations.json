@@ -2,10 +2,32 @@
 	/*
 	Ideas:
 	-Seekers of Eden, a religious faction dedicated to bringing back Eden on the wasteland
-	-The Menagerie, a mutant faction that utilizes the beasts of the wasteland for their own benefits
+	UW: Eden's Bloom
+	UU: Lord's Watchdog
+	UU: Homesteader
+	UI: Farmstead
+	UI: Vineyard
+	UB: Church Gardens
+	UB: Vintner
+	UB: Charity Kitchen
+	UB: Apple Cultivation
+	UB: Barley Cultivation
+	UB: Farmer's Guild
+	UB: Council of Eden
+	
+	-The Menagerie, a post-African mutant faction that utilizes the beasts of the wasteland for their own benefits
+	UW: Zū Bazaar
+	UU: Beastlord (promotion that randomly becomes another promo when it defeats an enemy)
+	UU: 
+	UB: Beast Pens
+	UB: 
+	
 	-Ceiba Foundation, a solarpunk corporation that utilizes their green energy in the post-apoc
+	
 	-Green Wardens, descendants of park rangers and scouts dedicated to defend the remains of national parks
+	
 	-Charybdis Division, mutated remnants of a military naval force that uses biotech and mutated sealife to continue their deep patrols
+	
 	*/
 
 	/* template: at least 20 city names
@@ -75,4 +97,68 @@
 		]
 	},
 	*/
+
+	{
+		"name": "Seekers of Eden",
+		"leaderName": "Ezekiel Oake",
+		"adjective": ["Edenite"],
+		"startBias": ["Wasteland"],
+		"personality": "Oake",
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+
+		"declaringWar": "The Lord wills that Eden will descend upon your lands, and so we shall seize it!",
+		"attacked": "Terrible art the retribution of the Lord towards those who dared to defile Eden!",
+		"defeated": "Ashes to ashes, dust to dust; Yet Eden still lives, and manifest it must.",
+		"introduction": "Lord be with you, stranger - you walk with the Seekers of Eden.",
+
+		"neutralHello": "Be welcomed upon Eden.",
+		"hateHello": "Pray the Lord not smite ye today, heretic.",
+
+		"tradeRequest": "Consider this a means of almsgiving.",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "Lost Eden",
+		"uniqueName": "Garden of Plenty",
+		"uniques": [
+			"Uniques Go Here"
+		],
+		"cities": [
+			"Eden's Shadow",
+			"Treefingers",
+			"Verdant Verse",
+			"Eden's Providence",
+			"Harvestville",
+			"Cornucopia",
+			"Greenapple",
+			"Wheatfield",
+			"Eden's Field",
+			"Evergreen",
+			"Aspen Hill",
+			"Greenmeadows",
+			"Vinehills",
+			"Barleycorn",
+			"Oates ",
+			"Fertile Crescent",
+			"Lord's Bounty",
+			"Sweetwater",
+			"Vinecross",
+			"Eden's Harvest"
+		],
+		"spyNames": [
+			"McIntosh",
+			"Fuji",
+			"Granny Smith",
+			"Honeycrisp",
+			"Braeburn",
+			"Cortland",
+			"Idared",
+			"Macoun",
+			"Sonya",
+			"Baldwin"
+		]
+	},
 ]
