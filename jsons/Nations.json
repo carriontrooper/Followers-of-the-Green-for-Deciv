@@ -161,8 +161,8 @@
 
 		"tradeRequest": "Consider this a means of almsgiving.",
 
-		"outerColor": [85, 85, 85],
-		"innerColor": [126, 192, 253],
+		"outerColor": [240, 206, 144],
+		"innerColor": [39, 94, 5],
 		"favoredReligion": "Lost Eden",
 		"uniqueName": "Garden of Plenty",
 		"uniques": [
@@ -183,7 +183,7 @@
 			"Greenmeadows",
 			"Vinehills",
 			"Barleycorn",
-			"Oates ",
+			"Oates Stead",
 			"Fertile Crescent",
 			"Lord's Bounty",
 			"Sweetwater",
@@ -201,6 +201,258 @@
 			"Macoun",
 			"Sonya",
 			"Baldwin"
+		]
+	},
+	{
+		"name": "The Menagerie",
+		"leaderName": "Olamide Abubakar",
+		"adjective": ["Menagerie"],
+		"startBias": ["Desert"],
+		"personality": "Abubakar",
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "Since long ago, the Zū has been home to animals and beasts of all manners. We have seen value in keeping the Zū, even after the bombs fell and the sickness transforms our beasts. More and more beasts we breed, and we attract more and more buyers for our exotic animals.",
+		"startIntroPart2": "So, come visit the Menagerie! I trust you will not be displeased with our selection!",
+
+		"declaringWar": "It is time I show you why I am called the lord of war-beasts. Unleash the dogs of war!",
+		"attacked": "First bite is free... the next will cost you!",
+		"defeated": "My time is over - now it is the beasts' time to reign.",
+		"introduction": "I am Olamide Abubakar, leader of the Menagerie. May I interest you in some exotic beasts?",
+
+		"neutralHello": "Welcome, welcome! Are you here to see the wares?",
+		"hateHello": "Ahh, the fresh meat came by themselves, how nice of you.",
+
+		"tradeRequest": "May I interest you in a deal, perhaps?",
+
+		"outerColor": [111, 120, 19],
+		"innerColor": [235, 132, 101],
+		"favoredReligion": "Polytheism",
+		"uniqueName": "Lord of War-Beasts",
+		"uniques": [
+			"Uniques Go Here"
+		],
+		"cities": [
+			"Lagos",
+			"Kano",
+			"Benin City",
+			"Abuja",
+			"Kaduna",
+			"Warri",
+			"Maiduguri",
+			"Abeokuta",
+			"Sokoto",
+			"Makurdi",
+			"Gombe",
+			"Kukawa",
+			"Gboko",
+			"Osogbo",
+			"Ijero",
+			"Jalingo",
+			"Buguma",
+			"Abakaliki",
+			"Gbongan",
+			"Gashua"
+		],
+		"spyNames": [
+			"Sebe",
+			"Igun",
+			"Asa",
+			"Okete",
+			"Akurakuda",
+			"Rakunmi",
+			"Adan",
+			"Paramole",
+			"Oga",
+			"Owiwi"
+		]
+	},
+	{
+		"name": "Ceiba Corp",
+		"leaderName": "Olivia Xotlanihua",
+		"adjective": ["Ceiba"],
+		"startBias": ["Wasteland"],
+		"personality": "Xotlanihua",
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"tradeRequest": ".",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "Green Way",
+		"uniqueName": "Solarpunk Ideals",
+		"uniques": [
+			"Uniques Go Here"
+		],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
+	},
+	{
+		"name": "Green Wardens",
+		"leaderName": "Rowan Brooks",
+		"adjective": ["Wardens"],
+		"startBias": ["Wasteland"],
+		"personality": "Brooks",
+		"preferredVictoryType":"Cultural",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"tradeRequest": ".",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "Naturism",
+		"uniqueName": "Guardians of Nature",
+		"uniques": [
+			"Uniques Go Here"
+		],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
+	},
+	{
+		"name": "Charybdis Division",
+		"leaderName": "Jung Vergen",
+		"adjective": ["Charybdis"],
+		"startBias": ["Coastal"],
+		"personality": "Vergen",
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"tradeRequest": ".",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "Eternal Watch",
+		"uniqueName": "Eternal Patrol of the Damned",
+		"uniques": [
+			"Uniques Go Here"
+		],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
 		]
 	},
 ]
