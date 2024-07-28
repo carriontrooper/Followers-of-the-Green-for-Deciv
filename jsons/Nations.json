@@ -17,16 +17,58 @@
 	
 	-The Menagerie, a post-African mutant faction that utilizes the beasts of the wasteland for their own benefits
 	UW: Zū Bazaar
-	UU: Beastlord (promotion that randomly becomes another promo when it defeats an enemy)
-	UU: 
+	UU: Beastlord (has promotion that could randomly become another promo... or unit? when the unit walks over an animal resource tile)
+	UU: Mutant War Elephant
+	UU: Mutant Hog Rider
+	UU: Mutant Scorpion Wrangler
+	UU: Mutant Deer Rider
+	UU: Mutant War Hippo
+	UGP: Menagerie Merchant
 	UB: Beast Pens
-	UB: 
+	UB: Mahout School
+	UB: Prestige Breeds (grants new luxuries depending on existing luxuries)
+	UB: Beast Genelabs
 	
-	-Ceiba Foundation, a solarpunk corporation that utilizes their green energy in the post-apoc
+	-Ceiba Corp, a solarpunk corporation that utilizes their green energy in the post-apoc
+	UW: Ceiba Spire
+	UU: Eco-Engineer
+	UI: Helix Wind Farm
+	UI: Geothermal Tap
+	UI: Solar Farm
+	UI: Wavepower Buoys
+	UB: Green Energy Initiative (creates Green Energy luxury item that can be traded and converted into normal Power)
+	UB: Tokamak Reactor
+	UB: Tidal Power Station
+	UB: Solar Power Plant
+	UB: Biogas Plant
 	
 	-Green Wardens, descendants of park rangers and scouts dedicated to defend the remains of national parks
+	UW: Camp Yellowstone
+	UU: Young Scouts (more experience gain, able to upgrade to more than just Gunman)
+	UU: Park Ranger
+	UI: Watchtower
+	UI: Game Sanctuary
+	UI: Natural Park
+	UI: Geopark
+	UB: Ranger's Camp
+	UB: Firewatch
+	UB: Conservatory
+	UB: Cartographer Academy
+	UB: National Park Institute
 	
 	-Charybdis Division, mutated remnants of a military naval force that uses biotech and mutated sealife to continue their deep patrols
+	UW: Deep Lair
+	UU: Nereid Scout
+	UU: Selkie Sapper
+	UU: Siyokoi Chopper
+	UU: Nixie Sniper
+	UU: Isonade Shark
+	UU: Kraken Squid
+	UU: Charybdis-Class Submarine
+	UGP: Great Submarine Commander
+	UI: Armed Fishing Boats
+	UB: Mutant Fish Hatchery
+	UB: Coral Submarine Pen
 	
 	*/
 
