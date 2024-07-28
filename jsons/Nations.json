@@ -146,10 +146,10 @@
 		"adjective": ["Edenite"],
 		"startBias": ["Wasteland"],
 		"personality": "Oake",
-		"preferredVictoryType":"Diplomatic",
+		"preferredVictoryType":"Religious",
 
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
+		"startIntroPart1": "The Rapture had come and went, and yet we are still alive here today. Then it must be the will of the Lord that we stayed behind; and so a revelation was granted to me: the Lord wants us to make Eden upon this world, and thus, we must seek to manifest it by our own means.",
+		"startIntroPart2": "Blessed are we, for we shall carry on the Lord's will; and that is to bring Eden unto this world.",
 
 		"declaringWar": "The Lord wills that Eden will descend upon your lands, and so we shall seize it!",
 		"attacked": "Terrible art the retribution of the Lord towards those who dared to defile Eden!",
