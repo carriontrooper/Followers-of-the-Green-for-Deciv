@@ -102,7 +102,9 @@
 		"innerColor": [126, 192, 253],
 		"favoredReligion": "ReligionName",
 		"uniqueName": "UniqueName",
-		"uniques": ["Uniques Go Here"],
+		"uniques": [
+			"Uniques Go Here"
+		],
 		"cities": [
 			"Capital",
 			"City1",
@@ -148,7 +150,7 @@
 		"personality": "Oake",
 		"preferredVictoryType":"Religious",
 
-		"startIntroPart1": "The Rapture had come and went, and yet we are still alive here today. Then it must be the will of the Lord that we stayed behind; and so a revelation was granted to me: the Lord wants us to make Eden upon this world, and thus, we must seek to manifest it by our own means.",
+		"startIntroPart1": "The Rapture had came and went, and yet we are still alive here today. Then it must be the will of the Lord that we stayed behind; and so a revelation was granted to me: the Lord wants us to make Eden upon this world, and thus, we must seek to manifest it by our own means.",
 		"startIntroPart2": "Blessed are we, for we shall carry on the Lord's will; and that is to bring Eden unto this world.",
 
 		"declaringWar": "The Lord wills that Eden will descend upon your lands, and so we shall seize it!",
@@ -295,7 +297,7 @@
 			"Uniques Go Here"
 		],
 		"cities": [
-			"Capital",
+			"Ceiba City",
 			"City1",
 			"City2",
 			"City3",
@@ -350,7 +352,7 @@
 
 		"tradeRequest": ".",
 
-		"outerColor": [85, 85, 85],
+		"outerColor": [93, 112, 68],
 		"innerColor": [126, 192, 253],
 		"favoredReligion": "Naturism",
 		"uniqueName": "Guardians of Nature",
