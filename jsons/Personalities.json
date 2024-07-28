@@ -1,3 +1,44 @@
 [
+	/* template
+	// victory types: Scientific, Diplomatic, Cultural, Domination
+	// Deciv VictoryTypes: Scientific, Cultural, Transmission, Domination, Diplomatic, Religious
 	
+	{
+		"name": "PersonalityName",
+		"preferredVictoryType": "Domination",
+		"culture": 10,
+		"faith": 10,
+		"food": 10,
+		"gold": 10,
+		"happiness": 10,
+		"production": 10,
+		"science": 10,
+		
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 10,
+		"diplomacy": 10,
+		"loyal": 10,
+		"expansion": 10,
+		
+		"priorities": {
+			"Adaptation": 10,
+			"Expansionism": 20,
+			"Sovereignty": 30,
+			"Theocracy": 10,
+			"Rationalism": 20,
+			"Constitution": 30,
+			"Supremacy": 10,
+			"Monopoly": 20,
+			"Collectivism": 30,
+			"Naturalism": 10,
+			"Mechanization": 20,
+			"Bionics": 30
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	}
+	*/
 ]
