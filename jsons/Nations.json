@@ -163,8 +163,8 @@
 
 		"tradeRequest": "Consider this a means of almsgiving.",
 
-		"outerColor": [240, 206, 144],
-		"innerColor": [39, 94, 5],
+		"outerColor": [137, 204, 73],
+		"innerColor": [0, 61, 20],
 		"favoredReligion": "Lost Eden",
 		"uniqueName": "Garden of Plenty",
 		"uniques": [
@@ -374,8 +374,8 @@
 
 		"tradeRequest": ".",
 
-		"outerColor": [137, 204, 73],
-		"innerColor": [0, 61, 20],
+		"outerColor": [240, 206, 144],
+		"innerColor": [39, 94, 5],
 		"favoredReligion": "Naturism",
 		"uniqueName": "Guardians of Nature",
 		"uniques": [
@@ -442,7 +442,7 @@
 		"tradeRequest": ".",
 
 		"outerColor": [24, 18, 105],
-		"innerColor": [192, 74, 255],
+		"innerColor": [123, 217, 15],
 		"favoredReligion": "Eternal Watch",
 		"uniqueName": "Eternal Patrol of the Damned",
 		"uniques": [
