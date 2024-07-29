@@ -23,6 +23,7 @@
 	UU: Mutant Scorpion Wrangler
 	UU: Mutant Deer Rider
 	UU: Mutant War Hippo
+	UU: War Hyena Wrangler
 	UGP: Menagerie Merchant
 	UB: Beast Pens
 	UB: Mahout School
@@ -48,7 +49,6 @@
 	UU: Park Ranger
 	UI: Watchtower
 	UI: Game Sanctuary
-	UI: Natural Park
 	UI: Geopark
 	UB: Ranger's Camp
 	UB: Firewatch
@@ -168,7 +168,15 @@
 		"favoredReligion": "Lost Eden",
 		"uniqueName": "Garden of Plenty",
 		"uniques": [
-			"Uniques Go Here"
+			"[+1 Food] from every [Farm]",
+			"[+1 Food] from every [Tree plantation]",
+			"[+1 Food] from every [Nature preserve]",
+			"[+1 Food] from every [Artificial oasis]",
+			"[+1 Food] from every [Grassland]",
+			"[+1 Food] from every [Terrace farm]",
+			"[+1 Food] from every [Bioculture]",
+			"[+1 Food] from every [Prison farm]",
+			"[+1 Food] from every [Factory farm]"
 		],
 		"cities": [
 			"Eden's Shadow",
@@ -231,7 +239,15 @@
 		"favoredReligion": "Polytheism",
 		"uniqueName": "Lord of War-Beasts",
 		"uniques": [
-			"Uniques Go Here"
+			"[+1 Production] from every [Camp]",
+			"[+1 Production] from every [Pasture]",
+			"[+1 Production] from every [Ranch]",
+			"[+1 Production] from every [Stable]",
+			"[+2 Gold, +1 Culture] from each Trade Route",
+			"[+10]% Production when constructing [Mounted] units [in all cities] <in cities with a [Stable]>",
+			"[+10]% Production when constructing [Mounted] units [in all cities] <in cities with a [Ranch]>",
+			"[+10]% Production when constructing [Beast Handler] units [in all cities] <in cities with a [Stable]>",
+			"[+10]% Production when constructing [Beast Handler] units [in all cities] <in cities with a [Ranch]>"
 		],
 		"cities": [
 			"Lagos",
@@ -294,7 +310,10 @@
 		"favoredReligion": "Green Way",
 		"uniqueName": "Solarpunk Ideals",
 		"uniques": [
-			"Uniques Go Here"
+			"[+1 Happiness] per [5] population [in all cities] <when above [4] [Green Energy]>",
+			"[+3 Science] per [5] population [in all cities] <when above [5] [Green Energy]>",
+			"[+3 Culture] per [5] population [in all cities] <when above [6] [Green Energy]>",
+			"[+1 Food] per every [3] [Science] <in [non-[Puppeted]] cities>"
 		],
 		"cities": [
 			"Ceiba City",
