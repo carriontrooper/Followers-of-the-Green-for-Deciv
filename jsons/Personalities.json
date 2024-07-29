@@ -35,10 +35,178 @@
 			"Naturalism": 10,
 			"Mechanization": 20,
 			"Bionics": 30
-		},
-		"civilopediaText": [
-			{"text": "."}
-		]
+		}
 	}
 	*/
+
+	{
+		"name": "Oake",
+		"preferredVictoryType": "Religious",
+		"culture": 6,
+		"faith": 9,
+		"food": 8,
+		"gold": 2,
+		"happiness": 5,
+		"production": 5,
+		"science": 3,
+		
+		"military": 5,
+		"aggressive": 3,
+		"declareWar": 4,
+		"commerce": 5,
+		"diplomacy": 4,
+		"loyal": 8,
+		"expansion": 5,
+		
+		"priorities": {
+			"Adaptation": 10,
+			"Expansionism": 0,
+			"Sovereignty": 0,
+			"Theocracy": 30,
+			"Rationalism": 0,
+			"Constitution": 10,
+			"Supremacy": 10,
+			"Monopoly": 10,
+			"Collectivism": 10,
+			"Naturalism": 30,
+			"Mechanization": 0,
+			"Bionics": 0
+		}
+	},
+	{
+		"name": "Abubakar",
+		"preferredVictoryType": "Domination",
+		"culture": 3,
+		"faith": 4,
+		"food": 6,
+		"gold": 9,
+		"happiness": 6,
+		"production": 6,
+		"science": 3,
+		
+		"military": 8,
+		"aggressive": 7,
+		"declareWar": 6,
+		"commerce": 9,
+		"diplomacy": 5,
+		"loyal": 3,
+		"expansion": 6,
+		
+		"priorities": {
+			"Adaptation": 0,
+			"Expansionism": 30,
+			"Sovereignty": 30,
+			"Theocracy": 10,
+			"Rationalism": 0,
+			"Constitution": 0,
+			"Supremacy": 30,
+			"Monopoly": 30,
+			"Collectivism": 0,
+			"Naturalism": 20,
+			"Mechanization": 20,
+			"Bionics": 0
+		}
+	},
+	{
+		"name": "Xotlanihua",
+		"preferredVictoryType": "Scientific",
+		"culture": 5,
+		"faith": 4,
+		"food": 7,
+		"gold": 6,
+		"happiness": 7,
+		"production": 5,
+		"science": 9,
+		
+		"military": 5,
+		"aggressive": 3,
+		"declareWar": 3,
+		"commerce": 7,
+		"diplomacy": 9,
+		"loyal": 8,
+		"expansion": 5,
+		
+		"priorities": {
+			"Adaptation": 30,
+			"Expansionism": 10,
+			"Sovereignty": 0,
+			"Theocracy": 0,
+			"Rationalism": 30,
+			"Constitution": 30,
+			"Supremacy": 0,
+			"Monopoly": 20,
+			"Collectivism": 10,
+			"Naturalism": 30,
+			"Mechanization": 0,
+			"Bionics": 0
+		}
+	},
+	{
+		"name": "Brooks",
+		"preferredVictoryType": "Cultural",
+		"culture": 9,
+		"faith": 6,
+		"food": 7,
+		"gold": 4,
+		"happiness": 6,
+		"production": 5,
+		"science": 6,
+		
+		"military": 6,
+		"aggressive": 4,
+		"declareWar": 4,
+		"commerce": 5,
+		"diplomacy": 8,
+		"loyal": 9,
+		"expansion": 5,
+		
+		"priorities": {
+			"Adaptation": 30,
+			"Expansionism": 20,
+			"Sovereignty": 20,
+			"Theocracy": 10,
+			"Rationalism": 20,
+			"Constitution": 30,
+			"Supremacy": 0,
+			"Monopoly": 0,
+			"Collectivism": 20,
+			"Naturalism": 30,
+			"Mechanization": 0,
+			"Bionics": 0
+		}
+	},
+	{
+		"name": "Vergen",
+		"preferredVictoryType": "Domination",
+		"culture": 3,
+		"faith": 6,
+		"food": 6,
+		"gold": 3,
+		"happiness": 2,
+		"production": 8,
+		"science": 7,
+		
+		"military": 7,
+		"aggressive": 9,
+		"declareWar": 9,
+		"commerce": 2,
+		"diplomacy": 1,
+		"loyal": 10,
+		"expansion": 7,
+		
+		"priorities": {
+			"Adaptation": 10,
+			"Expansionism": 10,
+			"Sovereignty": 30,
+			"Theocracy": 10,
+			"Rationalism": 0,
+			"Constitution": 0,
+			"Supremacy": 30,
+			"Monopoly": 0,
+			"Collectivism": 10,
+			"Naturalism": 10,
+			"Mechanization": 20,
+			"Bionics": 30
+		}
+	}
 ]
