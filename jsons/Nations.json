@@ -236,11 +236,12 @@
 
 		"tradeRequest": "May I interest you in a bargain, perhaps?",
 
-		"outerColor": [111, 120, 19],
-		"innerColor": [235, 132, 101],
+		"outerColor": [74, 79, 21],
+		"innerColor": [255, 123, 66],
 		"favoredReligion": "Polytheism",
 		"uniqueName": "Lord of War-Beasts",
 		"uniques": [
+			"Starts with [Redomestication]",
 			"[+1 Production] from every [Camp]",
 			"[+1 Production] from every [Pasture]",
 			"[+1 Production] from every [Ranch]",
@@ -448,8 +449,9 @@
 		"uniques": [
 			"All newly-trained [{Water} {Military}] units [in all cities] receive the [Scourge of the Seas] promotion",
 			"[+10]% Production when constructing [Water] units [in all coastal cities]",
-			"May capture killed [Water] units <with [50]% chance>",
-			"May capture killed [Embarked] units <with [50]% chance>"
+			// shunt these two to the promo
+			//"May capture killed [Water] units <with [50]% chance>",
+			//"May capture killed [Embarked] units <with [50]% chance>"
 		],
 		"cities": [
 			"Charybdis Base",
