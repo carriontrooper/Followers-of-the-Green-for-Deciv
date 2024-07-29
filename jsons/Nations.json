@@ -168,6 +168,7 @@
 		"favoredReligion": "Lost Eden",
 		"uniqueName": "Garden of Plenty",
 		"uniques": [
+			"Starts with [Theocracy] adopted",
 			"[+1 Food] from every [Farm]",
 			"[+1 Food] from every [Tree plantation]",
 			"[+1 Food] from every [Nature preserve]",
@@ -176,7 +177,8 @@
 			"[+1 Food] from every [Terrace farm]",
 			"[+1 Food] from every [Bioculture]",
 			"[+1 Food] from every [Prison farm]",
-			"[+1 Food] from every [Factory farm]"
+			"[+1 Food] from every [Factory farm]",
+			"Cannot build [Enslaved] units"
 		],
 		"cities": [
 			"Eden's Shadow",
@@ -232,7 +234,7 @@
 		"neutralHello": "Welcome, welcome! Are you here to see the wares?",
 		"hateHello": "Ahh, the fresh meat came by themselves, how nice of you.",
 
-		"tradeRequest": "May I interest you in a deal, perhaps?",
+		"tradeRequest": "May I interest you in a bargain, perhaps?",
 
 		"outerColor": [111, 120, 19],
 		"innerColor": [235, 132, 101],
@@ -310,6 +312,7 @@
 		"favoredReligion": "Green Way",
 		"uniqueName": "Solarpunk Ideals",
 		"uniques": [
+			"Starts with [Writing]",
 			"[+1 Happiness] per [5] population [in all cities] <when above [4] [Green Energy]>",
 			"[+3 Science] per [5] population [in all cities] <when above [5] [Green Energy]>",
 			"[+3 Culture] per [5] population [in all cities] <when above [6] [Green Energy]>",
@@ -376,7 +379,11 @@
 		"favoredReligion": "Naturism",
 		"uniqueName": "Guardians of Nature",
 		"uniques": [
-			"Uniques Go Here"
+			"New [Military] units start with [10] Experience [in all cities]",
+			"All newly-trained [{Personnel} {Military}] units [in all cities] receive the [Green Scout] promotion",
+			"[+2 Culture] for every known Natural Wonder",
+			"[+50 Culture] for discovering a Natural Wonder (bonus enhanced to [+100 Culture] if first to discover it)",
+			"Cannot build [Enslaved] units"
 		],
 		"cities": [
 			"Yellowstone",
@@ -439,41 +446,44 @@
 		"favoredReligion": "Eternal Watch",
 		"uniqueName": "Eternal Patrol of the Damned",
 		"uniques": [
-			"Uniques Go Here"
+			"All newly-trained [{Water} {Military}] units [in all cities] receive the [Scourge of the Seas] promotion",
+			"[+10]% Production when constructing [Water] units [in all coastal cities]",
+			"May capture killed [Water] units <with [50]% chance>",
+			"May capture killed [Embarked] units <with [50]% chance>"
 		],
 		"cities": [
-			"Capital",
-			"City1",
-			"City2",
-			"City3",
-			"City4",
-			"City5",
-			"City6",
-			"City7",
-			"City8",
-			"City9",
-			"City10",
-			"City11",
-			"City12",
-			"City13",
-			"City14",
-			"City15",
-			"City16",
-			"City17",
-			"City18",
-			"AndSoOn"
+			"Charybdis Base",
+			"Scylla Deeps",
+			"Shark Point",
+			"Crab Rocks",
+			"Pressure Base",
+			"Moray Outpost",
+			"Barracuda Reach",
+			"Manta Deeps",
+			"Sirensong",
+			"Whalefall Point",
+			"Ctarnidd Abyss",
+			"Cyclopean Rocks",
+			"Sharksgrave",
+			"Kraken Lair",
+			"Ichthys Base",
+			"Trident Outpost",
+			"Angler Deeps",
+			"Hook Point",
+			"Swordfish Reach",
+			"Clione Abyss"
 		],
 		"spyNames": [
-			"Spy1",
-			"Spy2",
-			"Spy3",
-			"Spy4",
-			"Spy5",
-			"Spy6",
-			"Spy7",
-			"Spy8",
-			"Spy9",
-			"Spy10"
+			"Saury",
+			"Bonito",
+			"Gurnard",
+			"Goby",
+			"Tetra",
+			"Gourami",
+			"Trevalla",
+			"Dory",
+			"Conger",
+			"Loach"
 		]
 	},
 ]
