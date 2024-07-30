@@ -7,4 +7,135 @@
 	Green Warden
 	Scourge of the Seas
 	*/
+
+	{
+		"name": "Guardians of Eden",
+		"uniques": [
+			"[+20]% Strength <when defending> <in [Food source] tiles>",
+			"[+20]% Strength <when defending> <in tiles adjacent to [Food source]>"
+		]
+	},
+	{
+		"name": "Beast Wrangler",
+		"uniques": [
+			"This Unit gains the [Insect Collector] promotion <in [Insects] tiles> <with [10]% chance>",
+			"This Unit gains the [Horse Tamer] promotion <in [Horses] tiles> <with [10]% chance>",
+			"This Unit gains the [Cattle Herder] promotion <in [Cattle] tiles> <with [10]% chance>",
+			"This Unit gains the [Goat Herder] promotion <in [Goats] tiles> <with [10]% chance>",
+			"This Unit gains the [Deer Tamer] promotion <in [Deer] tiles> <with [10]% chance>",
+			"This Unit gains the [Fur Trapper] promotion <in [Furs] tiles> <with [10]% chance>",
+			"This Unit gains the [Scorpion Wrangler] promotion <in [Hostile Fauna] tiles> <with [10]% chance>",
+			"This Unit gains the [Hyena Wrangler] promotion <in [Hostile Fauna] tiles> <with [10]% chance>",
+			"This Unit gains the [Elephant Tamer] promotion <in [Hostile Fauna] tiles> <with [5]% chance>",
+			"This Unit gains the [Hippo Wrangler] promotion <in [Hostile Fauna] tiles> <with [5]% chance>",
+			"This Unit gains the [Hog Wrangler] promotion <in [Hogs] tiles> <with [10]% chance>",
+			//"Can transform to [unit] <costs [1 Gold] stats>",
+		]
+	},
+	{
+		"name": "Insect Collector",
+		"uniques": [
+			"Gain [1]-[10] [Gold] <upon ending a turn in a [Insects] tile>"
+		]
+	},
+	{
+		"name": "Horse Tamer",
+		"uniques": [
+			"Mounted",
+			"Gain [1]-[10] [Food] <upon ending a turn in a [Horses] tile>"
+		]
+	},
+	{
+		"name": "Cattle Herder",
+		"uniques": [
+			"Gain [1]-[10] [Gold] <upon ending a turn in a [Cattle] tile>"
+		]
+	},
+	{
+		"name": "Goat Herder",
+		"uniques": [
+			"Gain [1]-[10] [Gold] <upon ending a turn in a [Goats] tile>"
+		]
+	},
+	{
+		"name": "Deer Tamer",
+		"uniques": [
+			"Gain [1]-[10] [Food] <upon ending a turn in a [Deer] tile>",
+			"Can transform to [Mutant Deer Rider] <costs [50 Gold] stats>"
+		]
+	},
+	{
+		"name": "Fur Trapper",
+		"uniques": [
+			"Gain [1]-[10] [Gold] <upon ending a turn in a [Furs] tile>"
+		]
+	},
+	{
+		"name": "Scorpion Wrangler",
+		"uniques": [
+			"Gain [5]-[20] [Gold] <upon ending a turn in a [Hostile Fauna] tile>",
+			"Can transform to [Mutant Scorpion Wrangler] <costs [50 Gold] stats>"
+		]
+	},
+	{
+		"name": "Hyena Wrangler",
+		"uniques": [
+			"Gain [5]-[20] [Gold] <upon ending a turn in a [Hostile Fauna] tile>",
+			"Can transform to [War Hyena Wrangler] <costs [70 Gold] stats>"
+		]
+	},
+	{
+		"name": "Elephant Tamer",
+		"uniques": [
+			"Gain [5]-[20] [Production] <upon ending a turn in a [Hostile Fauna] tile>",
+			"Can transform to [Mutant War Elephant] <costs [200 Gold] stats>"
+		]
+	},
+	{
+		"name": "Hippo Wrangler",
+		"uniques": [
+			"Gain [5]-[20] [Culture] <upon ending a turn in a [Hostile Fauna] tile>",
+			"Can transform to [Mutant War Hippo] <costs [100 Gold] stats>"
+		]
+	},
+	{
+		"name": "Hog Wrangler",
+		"uniques": [
+			"Gain [1]-[10] [Food] <upon ending a turn in a [Hogs] tile>",
+			"Can transform to [Mutant Hog Rider] <costs [70 Gold] stats>"
+		]
+	},
+	{
+		"name": "Green Scout",
+		"uniques": [
+			"[+1] Sight"
+		]
+	},
+	{
+		"name": "Green Ranger",
+		"uniques": [
+			"[+1] Sight",
+			"[+20]% Strength <when defending> <in [Park] tiles>",
+			"[+20]% Strength <when defending> <in tiles adjacent to [Park]>",
+			"[+20]% Strength <when defending> <in [Nature preserve] tiles>",
+			"[+20]% Strength <when defending> <in tiles adjacent to [Nature preserve]>"
+		]
+	},
+	{
+		"name": "Green Warden",
+		"uniques": [
+			"[+1] Sight",
+			"[+20]% Strength <in [Park] tiles>",
+			"[+20]% Strength <in tiles adjacent to [Park]>",
+			"[+20]% Strength <in [Nature preserve] tiles>",
+			"[+20]% Strength <in tiles adjacent to [Nature preserve]>"
+		]
+	},
+	{
+		"name": "Scourge of the Seas",
+		"uniques": [
+			"May capture killed [Water] units <with [50]% chance>",
+			"May capture killed [Embarked] units <with [50]% chance>"
+		]
+	}
 ]
