@@ -18,4 +18,209 @@
 	Charybdis Division:
 	UI: Armed Fishing Boats
 	*/
+
+	{
+		"name": "Farmstead",
+		"uniqueTo": "Seekers of Eden",
+		"terrainsCanBeBuiltOn": ["Badlands", "Desert", "Swamp"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": [
+			"Food source",
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles",
+			"[+1 Food] <after discovering [Land Remediation]>",
+			"Gives a defensive bonus of [20]%",
+			"Cannot be built on [Fissure] tiles",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Vineyard",
+		"uniqueTo": "Seekers of Eden",
+		"terrainsCanBeBuiltOn": ["Badlands"],
+		"food": 1,
+		"turnsToBuild": 9,
+		"techRequired": "Botany",
+		"uniques": [
+			"Food source",
+			"Can also be built on tiles adjacent to fresh water",
+			"Provides [1] [Grapes]",
+			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"[+1 Food] <after discovering [Land Remediation]>",
+			"Cannot be built on [Fissure] tiles",
+			"Pillaging this improvement yields approximately [+30 Gold]"
+		]
+	},
+	{
+		"name": "Helix Wind Farm",
+		"replaces": "Wind farm"
+		"uniqueTo": "Ceiba Corp",
+		"terrainsCanBeBuiltOn": [
+			"Hills"
+		],
+		"turnsToBuild": 10,
+		"techRequired": "Steel",
+		"uniques": [
+			"Ecofriendly",
+			"Provides [1] [Power]",
+			"Provides [1] [Green Energy]",
+			"Cannot be built on [Water] tiles <before discovering [Oceanography]>",
+			//"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Solar Farm",
+		"replaces": "Solar collector"
+		"uniqueTo": "Ceiba Corp",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert"
+		],
+		"production": 1,
+		"turnsToBuild": 14,
+		"techRequired": "Electronics",
+		"uniques": [
+			"Ecofriendly",
+			"Provides [1] [Power]",
+			"Provides [1] [Green Energy]",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Geothermal Tap",
+		"uniqueTo": "Ceiba Corp",
+		"terrainsCanBeBuiltOn": ["Fissure"],
+		"production": 1,
+		"turnsToBuild": 9,
+		"techRequired": "Engineering",
+		"uniques": [
+			"Ecofriendly",
+			"Provides [3] [Power]",
+			"Provides [3] [Green Energy]",
+			"Unbuildable <within [1] tiles of a [Geothermal Tap]>",
+			"[+1 Production] <after discovering [Steam Power]>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Wavepower Buoys",
+		"uniqueTo": "Ceiba Corp",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"production": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Electronics",
+		"uniques": [
+			"Ecofriendly",
+			"Provides [1] [Power]",
+			"Provides [1] [Green Energy]",
+			"Cannot be built on [Water resource] tiles",
+			"[+1 Production] <after discovering [Advanced Materials]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+	},
+	{
+		"name": "Watchtower",
+		"uniqueTo": "Green Wardens",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Permafrost",
+			"Swamp"
+		],
+		"turnsToBuild": 4,
+		"uniques": [
+			"Gives a defensive bonus of [10]%",
+			"Has an elevation of [+1] for visibility calculations", //will this work?
+			"[+1] Sight",
+			"Can be built outside your borders"
+		]
+	},
+	{
+		"name": "Game Sanctuary",
+		"uniqueTo": "Green Wardens",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Permafrost",
+			"Swamp"
+		],
+		"food": 1,
+		"culture": 1,
+		"turnsToBuild": 5,
+		"uniques": [
+			"Food source",
+			"Park",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+1 Food, +2 Culture] <after discovering [Education]>",
+			"Improves [Horses] resource in this tile",
+			"Improves [Cattle] resource in this tile",
+			"Improves [Goats] resource in this tile",
+			"Improves [Deer] resource in this tile",
+			"Improves [Furs] resource in this tile",
+			"Improves [Hostile Fauna] resource in this tile",
+			"Improves [Hogs] resource in this tile",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Geopark",
+		"uniqueTo": "Green Wardens",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Permafrost",
+			"Swamp"
+		],
+		"production": 1,
+		"culture": 1,
+		"turnsToBuild": 5,
+		"uniques": [
+			"Food source",
+			"Park",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+1 Production, +2 Culture] <after discovering [Education]>",
+			"Improves [Metal] resource in this tile",
+			"Improves [Oil] resource in this tile",
+			"Improves [Coal] resource in this tile",
+			"Improves [Aluminum] resource in this tile",
+			"Improves [Uranium] resource in this tile",
+			"Improves [Salt] resource in this tile",
+			"Improves [Gems] resource in this tile",
+			"Improves [Silver] resource in this tile",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Armed Fishing Boats",
+		"uniqueTo": "Charybdis Division",
+		"techRequired": "Sailing",
+		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
+		"uniques": [
+			"Food source",
+			"Obsolete with [Genetics]",
+			"[+1 Food] <after discovering [Oceanography]>",
+			"Can only be built to improve a resource",
+			"Gives a defensive bonus of [25]%",
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+	}
 ]
