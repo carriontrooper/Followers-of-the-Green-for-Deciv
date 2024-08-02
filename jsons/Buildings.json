@@ -19,7 +19,7 @@
 
 	Ceiba Corp:
 	UW: Ceiba Spire
-	UB: Green Energy Initiative (creates Green Energy luxury item that can be traded and converted into normal Power)
+	UB: Green Energy Initiative (enables Green Energy luxury item that can be traded and converted into normal Power, provides water and production depending on how many GE you have)
 	UB: Tokamak Reactor
 	UB: Tidal Power Station
 	UB: Solar Power Plant
@@ -37,5 +37,102 @@
 	UW: Deep Lair
 	UB: Mutant Fish Hatchery
 	UB: Coral Submarine Pen
+
+	non-uniques:
+	Green Energy Transformer
 	*/
+
+	//// Unique Wonders
+	// Seekers of Eden
+	{
+		"name": "Eden's Bloom",
+		"isWonder": true,
+		"uniqueTo": "Followers of Eden",
+		"food": 1,
+		"faith": 1,
+		"cost": 0,
+		"uniques": [
+			"[1] free [Lord's Watchdog] units appear",
+			"[1] free [Homesteader] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Church Gardens] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "The Lord has deemed us worthy; this mighty tree is a piece of Eden! Praise the Lord, praise the Lord, praise the Lord!",
+		"civilopediaText": [
+			{
+				"text": "The Lord has deemed us worthy; this mighty tree is a piece of Eden! Praise the Lord, praise the Lord, praise the Lord!"
+			}
+		]
+	},
+
+	// The Menagerie
+	{
+		"name": "Zū Bazaar",
+		"isWonder": true,
+		"uniqueTo": "The Menagerie",
+		"percentStatBonus": {"gold": 5},
+		"gold": 2,
+		"cost": 0,
+		"uniques": [
+			"[1] free [Beastlord] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Beast Pens] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "Ah, I see you have a good eye for deals! We can provide you with animals, beasts, mutants, people... and maybe other goods as well.",
+		"civilopediaText": [
+			{
+				"text": "Ah, I see you have a good eye for deals! We can provide you with animals, beasts, mutants, people... and maybe other goods as well."
+			}
+		]
+	},
+
+	// Ceiba Corp
+	{
+		"name": "Ceiba Spire",
+		"isWonder": true,
+		"uniqueTo": "Ceiba Corp",
+		"food": 1,
+		"science": 1,
+		"cost": 0,
+		"uniques": [
+			"[1] free [Eco-Engineer] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "Here at Ceiba Corp, eco-sustainability and green energy are our top priority. Let us build an ecologically stable utopian future, together! \n- a faded sign displayed in front of the spire",
+		"civilopediaText": [
+			{
+				"text": "Here at Ceiba Corp, eco-sustainability and green energy are our top priority. Let us build an ecologically stable utopian future, together! \n- a faded sign displayed in front of the spire"
+			}
+		]
+	},
+
+	// Green Wardens
+	{
+		"name": "Camp Yellowstone",
+		"isWonder": true,
+		"uniqueTo": Green Wardens",
+		"food": 1,
+		"culture": 1,
+		"cost": 0,
+		"uniques": [
+			"[+50]% City Strength from defensive buildings",
+			"[1] free [Young Scouts] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Ranger's Camp] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": ".",
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+
+	// Charybdis Division
+	
 ]
