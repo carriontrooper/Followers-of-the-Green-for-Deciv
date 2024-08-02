@@ -64,7 +64,7 @@
 		"uniques": [
 			"Ecofriendly",
 			"Provides [1] [Power]",
-			"Provides [1] [Green Energy]",
+			"Provides [1] [Green Energy] <if [Green Energy Initiative] is constructed>",
 			"Cannot be built on [Water] tiles <before discovering [Oceanography]>",
 			//"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+20 Gold]"
@@ -86,7 +86,7 @@
 		"uniques": [
 			"Ecofriendly",
 			"Provides [1] [Power]",
-			"Provides [1] [Green Energy]",
+			"Provides [1] [Green Energy] <if [Green Energy Initiative] is constructed>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"shortcutKey": "L"
@@ -101,7 +101,7 @@
 		"uniques": [
 			"Ecofriendly",
 			"Provides [3] [Power]",
-			"Provides [3] [Green Energy]",
+			"Provides [3] [Green Energy] <if [Green Energy Initiative] is constructed>",
 			"Unbuildable <within [1] tiles of a [Geothermal Tap]>",
 			"[+1 Production] <after discovering [Steam Power]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
@@ -117,7 +117,7 @@
 		"uniques": [
 			"Ecofriendly",
 			"Provides [1] [Power]",
-			"Provides [1] [Green Energy]",
+			"Provides [1] [Green Energy] <if [Green Energy Initiative] is constructed>",
 			"Cannot be built on [Water resource] tiles",
 			"[+1 Production] <after discovering [Advanced Materials]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
