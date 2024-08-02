@@ -1,8 +1,29 @@
 [
 	/*
+	Grapes
 	Aquavit
 	Cider
 	Exotic Beasts
 	Green Energy
 	*/
+	{
+		"name": "Grapes",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Aquavit",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Cider",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Exotic Pets",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Green Energy",
+		"resourceType": "Luxury"
+	}
 ]
