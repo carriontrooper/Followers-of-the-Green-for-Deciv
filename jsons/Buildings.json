@@ -14,8 +14,10 @@
 	UW: Zū Bazaar
 	UB: Beast Pens
 	UB: Mahout School
-	UB: Prestige Breeds (grants new luxuries depending on existing luxuries)
+	UNW: Prestige Breeder (grants new luxuries depending on existing luxuries)
 	UB: Beast Genelabs
+	UB: Breeder's Guild
+	UB: Beastmasters' Council
 
 	Ceiba Corp:
 	UW: Ceiba Spire
@@ -24,6 +26,8 @@
 	UB: Tidal Power Station
 	UB: Solar Power Plant
 	UB: Biogas Plant
+	UB: Carbon Commission
+	UB: Ecological Focus Group
 
 	Green Wardens:
 	UW: Camp Yellowstone
@@ -32,11 +36,14 @@
 	UB: Conservatory
 	UB: Cartographer Academy
 	UB: National Park Institute
+	UB: Rangers' Lodge
+	UB: Warden Council
 
 	Charybdis Division:
 	UW: Deep Lair
 	UB: Mutant Fish Hatchery
 	UB: Coral Submarine Pen
+	UB: Patrol Central Control
 
 	non-uniques:
 	Green Energy Transformer
@@ -267,8 +274,209 @@
 	},
 
 	// The Menagerie
+	{
+		"name": "Beast Pens",
+		"replaces": "Food Store",
+		"uniqueTo": "The Menagerie",
+		"cost": 10,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"[20]% Food is carried over after population increases [in this city]",
+			"[+10]% Production when constructing [Beast Handler] units [in this city]",
+			"[+1 Food] [in this city] <with [Horses]>",
+			"[+1 Food] [in this city] <with [Cattle]>",
+			"[+1 Food] [in this city] <with [Goats]>",
+			"[+1 Food] [in this city] <with [Deer]>",
+			"[+1 Food] [in this city] <with [Furs]>",
+			"[+1 Food] [in this city] <with [Hogs]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>"
+		]
+	},
+	{
+		"name": "Mahout School",
+		"replaces": "Public School",
+		"uniqueTo": "The Menagerie",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Science, +1 Culture] per [5] population [in this city]",
+			"[+1 Food, +1 Production] per [4] population [in this city]",
+			"Only available <in cities with a [Library]>",
+			"[+1 Culture] [in this city] <when above [0] [Power]>"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Prestige Breeder",
+		"uniqueTo": "The Menagerie",
+		"isNationalWonder": true,
+		"happiness": 1,
+		"gold": 2,
+		"maintenance": 1,
+		"uniques": [
+			"Can only be built <if [Beast Pens] is constructed in all [non-[Puppeted]] cities>",
+			"Provides [1] [Exotic Pets] <for every [3] [Cattle]>",
+			"Provides [1] [Exotic Pets] <for every [3] [Goats]>",
+			"Provides [1] [Exotic Pets] <for every [3] [Deer]>",
+			"Provides [1] [Exotic Pets] <for every [3] [Furs]>",
+			"Provides [1] [Exotic Pets] <for every [3] [Hostile Fauna]>",
+			"Provides [1] [Exotic Pets] <for every [3] [Hogs]>"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Biology"
+	},
+	{
+		"name": "Beast Genelabs",
+		"replaces": "Research Lab",
+		"uniqueTo": "The Menagerie",
+		"percentStatBonus": { "science": 25, "gold": 10 },
+		"specialistSlots": { "Scientist": 2 },
+		"maintenance": 1,
+		"uniques": [
+			"Only available <in cities with a [University]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Laboratory"
+	},
+	{
+		"name": "Breeder's Guild",
+		"replaces": "Congress",
+		"uniqueTo": "The Menagerie",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+5 Gold] <for every [2] [Exotic Pets]>",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Beastmasters' Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Beastmasters' Council",
+		"replaces": "Council",
+		"uniqueTo": "The Menagerie",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [Beast Handler] units [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Breeder's Guild]>",
+			"Destroyed when the city is captured"
+		]
+	},
 
 	// Ceiba Corp
+	{
+		"name": "Green Energy Initiative",
+		"uniqueTo": "Ceiba Corp",
+		"isNationalWonder": true,
+		"gold": 1,
+		"science": 1,
+		"greatPersonPoints": { "Great Administrator": 2 },
+		"requiredTech": "Ecology",
+		"uniques": [
+			"Consumes [1] [Green Energy] <for every [[Coal Plant] Building]>",
+			"Consumes [1] [Green Energy] <for every [[Oil Plant] Building]>",
+			"Consumes [1] [Green Energy] <for every [[Oil Refinery] Building]>",
+			"Consumes [1] [Green Energy] <for every [2] [[Factory] Building]>",
+			"Consumes [1] [Green Energy] <for every [[Syngas Plant] Building]>",
+			"Consumes [1] [Green Energy] <for every [[Plastics Factory] Building]>",
+			"Consumes [1] [Green Energy] <for every [[Automated Factory] Building]>",
+			"Provides [1] [Green Energy] <for every [2] [[Hydro Plant] Building]>",
+			"Provides [1] [Green Energy] <for every [2] [[Solar Power Plant] Building]>",
+			"Provides [1] [Green Energy] <for every [2] [[Tidal Power Station] Building]>",
+			"Provides [1] [Green Energy] <for every [2] [[Biogas Plant] Building]>",
+			"Provides [1] [Green Energy] <for every [[Nuclear Plant] Building]>",
+			"Provides [1] [Green Energy] <for every [[Recycling Plant] Building]>",
+			"Provides [1] [Green Energy] <for every [[Carbon Capture] Building]>",
+			"Provides [1] [Green Energy] <for every [[Bio Synthesizer] Building]>",
+			"Provides [2] [Green Energy] <for every [[Tokamak Reactor] Building]>",
+		]
+	},
+	{
+		"name": "Tokamak Reactor",
+		"replaces": "Fusion Reactor",
+		"uniqueTo": "Ceiba Corp",
+		"cost": 3750,
+		"isNationalWonder": true,
+		"uniques": [
+			"Provides [10] [Power]",
+			"Provides [1] [Uranium]",
+			"Can only be built <in [Capital] cities>",
+			"[+1 Production] [in all cities connected to capital]"
+		],
+		"requiredTech": "Future Power"
+	},
+	{
+		"name": "Tidal Power Station",
+		"replaces": "Tidal Plant",
+		"uniqueTo": "Ceiba Corp",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be next to [Coast]",
+			"Provides [3] [Power]",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Solar Power Plant",
+		"uniqueTo": "Ceiba Corp",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must have an owned [Solar Farm] within [3] tiles",
+			"Provides [2] [Power]",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Biogas Plant",
+		"uniqueTo": "Ceiba Corp",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Only available <if [Ranch] is constructed> <in this city>",
+			"Provides [1] [Power]",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Carbon Commission",
+		"replaces": "Congress",
+		"uniqueTo": "Ceiba Corp",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Production] [in all cities] <for every [Green Energy]>",
+			"[+1 Science] per [4] population [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Ecological Focus Group",
+		"replaces": "Council",
+		"uniqueTo": "Ceiba Corp",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Science] [in all cities] <for every [2] [Green Energy]>",
+			"[+10]% growth [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Congress]>",
+			"Destroyed when the city is captured"
+		]
+	},
 
 	// Green Wardens
 
