@@ -1,3 +1,82 @@
 [
 	//todo: add new natural wonders
+	{
+		"name": "Mountain Faces",
+		"type": "NaturalWonder",
+		"gold": 1,
+		"culture": 2,
+		"occursOn": ["Wasteland", "Badlands","Tundra"],
+		"uniques": [
+			"Must be adjacent to [1] [Mountain] tiles",
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Lady of the Torch",
+		"type": "NaturalWonder",
+		"culture": 2,
+		"occursOn": ["Ocean"],
+		"uniques": [
+			"Must be adjacent to [1] to [6] [Coast] tiles",
+			"Must be adjacent to [0] [Ice] tiles",
+			"Neighboring tiles will convert to [Coast]"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Sacred Red Rock",
+		"type": "NaturalWonder",
+		"occursOn": ["Desert"],
+		"turnsInto": "Desert",
+		"faith": 5,
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Wasteland] tiles",
+			"Must be adjacent to [0] [Hill] tiles",
+			"Must be adjacent to [0] [Mountain] tiles",
+			"Fresh water"
+		],
+		"turnsInto": "Mountain",
+		"unbuildable": true,
+		"impassable": true,
+		"weight": 10
+	},
+	{
+		"name": "Glass Crater",
+		"type": "NaturalWonder",
+		"culture": 1,
+		"science": 2,
+		"occursOn": ["Desert"],
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Wasteland] tiles",
+			"Must be adjacent to [0] to [2] [Mountain] tiles",
+			"Must be adjacent to [0] to [4] [Elevated] tiles",
+			"Must be adjacent to [1] to [6] [Mountain] tiles"
+		],
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Secret Glade",
+		"type": "NaturalWonder",
+		"food": 1,
+		"faith": 1,
+		"overrideStats": true,
+		"occursOn": ["Tundra","Permafrost"],
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [1] to [6] [Hill] tiles"
+		],
+		"weight": 2
+	}
 ]
