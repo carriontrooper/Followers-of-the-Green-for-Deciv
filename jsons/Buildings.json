@@ -35,7 +35,7 @@
 	UB: Firewatch
 	UB: Conservatory
 	UB: Cartographer Academy
-	UB: National Park Institute
+	UNW: National Park Institute
 	UB: Rangers' Lodge
 	UB: Warden Council
 
@@ -320,7 +320,8 @@
 			"Provides [1] [Exotic Pets] <for every [3] [Deer]>",
 			"Provides [1] [Exotic Pets] <for every [3] [Furs]>",
 			"Provides [1] [Exotic Pets] <for every [3] [Hostile Fauna]>",
-			"Provides [1] [Exotic Pets] <for every [3] [Hogs]>"
+			"Provides [1] [Exotic Pets] <for every [3] [Hogs]>",
+			"Cost increases by [30] per owned city"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Biology"
@@ -395,6 +396,7 @@
 			"Provides [1] [Green Energy] <for every [[Carbon Capture] Building]>",
 			"Provides [1] [Green Energy] <for every [[Bio Synthesizer] Building]>",
 			"Provides [2] [Green Energy] <for every [[Tokamak Reactor] Building]>",
+			"Cost increases by [30] per owned city"
 		]
 	},
 	{
@@ -457,7 +459,7 @@
 			"[+5]% Production when constructing [All] buildings [in this city]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Council]>",
+			"Only available <in cities without a [Ecological Focus Group]>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -473,12 +475,182 @@
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Congress]>",
+			"Only available <in cities without a [Carbon Commission]>",
 			"Destroyed when the city is captured"
 		]
 	},
 
 	// Green Wardens
+	{
+		"name": "Ranger's Camp",
+		"replaces": "Barracks",
+		"uniqueTo": "Green Wardens",
+		"hurryCostModifier": 25,
+		"culture": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"New [Park Ranger] units start with [10] Experience [in this city] <within [3] tiles of a [Park]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Firewatch",
+		"replaces": "Listening Post",
+		"uniqueTo": "Green Wardens",
+		"maintenance": 1,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Culture] <within [3] tiles of a [Park]>",
+			"Remove extra unhappiness from annexed cities",
+			"[-25]% enemy spy effectiveness [in this city]",
+			"Destroyed when the city is captured",
+			"Hidden when espionage is disabled"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Conservatory",
+		"uniqueTo": "Green Wardens",
+		"happiness": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 30,
+		"uniques": [
+			"[+1 Food, +1 Culture] from [Nature preserve] tiles [in this city]",
+			"[+1 Culture] from [Park] tiles [in this city]",
+			"Must have an owned [Park] within [3] tiles"
+		],
+		"requiredTech": "Ecology"
+	},
+	{
+		"name": "Cartographer Academy",
+		"replaces": "University",
+		"uniqueTo": "Green Wardens",
+		"culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 25 },
+		"specialistSlots": { "Scientist": 1 },
+		"uniques": [
+			"[+1 Science, +1 Culture] from [Park] tiles [in this city]",
+			"[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Forest] tiles [in this city]",
+			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "National Park Institute",
+		"uniqueTo": "Green Wardens",
+		"science": 2,
+		"culture": 2,
+		"isNationalWonder": true,
+		"percentStatBonus": { "science": 33 },
+		"uniques": [
+			"Only available <if [Conservatory] is constructed in all [non-[Puppeted]] cities>",
+			"[+2 Culture] for every known Natural Wonder",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Rangers' Lodge",
+		"replaces": "Congress",
+		"uniqueTo": "Green Wardens",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] per [5] population [in all cities]",
+			"[+5]% Production when constructing [Park Ranger] units [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Warden Council",
+		"replaces": "Council",
+		"uniqueTo": "Green Wardens",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"[-20]% construction time for [Park] improvements",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Congress]>",
+			"Destroyed when the city is captured"
+		]
+	},
 
 	// Charybdis Division
+	{
+		"name": "Mutant Fish Hatchery",
+		"replaces": "Fish Farm",
+		"uniqueTo": "Charybdis Division",
+		"food": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Ecology",
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Food] from [Coast] tiles [in this city]",
+			"[+5]% Production when constructing [Oceanic Mutation] units [in this city]",
+		]
+	},
+	{
+		"name": "Coral Submarine Pen",
+		"replaces": "Harbor",
+		"uniqueTo": "Charybdis Division",
+		"cityHealth": 50,
+		"uniques": [
+			"[+10]% Production when constructing [Water] units [in this city]",
+			"Connects trade routes over water",
+			"Must be next to [Coast]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Navigation"
+	},
+	{
+		"name": "Patrol Central Control",
+		"replaces": "Council",
+		"uniqueTo": "Charybdis Division",
+		"happiness": 2,
+		"cityStrength": 50,
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+10]% Production when constructing [Military] units [in this city]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Charybdis Division cannot build Congress",
+		"replaces": "Congress",
+		"uniqueTo": "Charybdis Division",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Press-Gang Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Charybdis Division",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+1] population [in all cities]",
+			"Provides [2] [Slaves]",
+			"Free [Great Submarine Commander] appears"
+		]
+	}
 ]
