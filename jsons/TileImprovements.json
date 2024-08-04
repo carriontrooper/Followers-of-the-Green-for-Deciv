@@ -191,7 +191,6 @@
 		"culture": 1,
 		"turnsToBuild": 5,
 		"uniques": [
-			"Food source",
 			"Park",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
