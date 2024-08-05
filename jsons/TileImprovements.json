@@ -57,7 +57,7 @@
 		"replaces": "Wind farm"
 		"uniqueTo": "Ceiba Corp",
 		"terrainsCanBeBuiltOn": [
-			"Hills"
+			"Hill"
 		],
 		"turnsToBuild": 10,
 		"techRequired": "Steel",
