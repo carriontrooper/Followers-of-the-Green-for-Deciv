@@ -60,6 +60,7 @@
 			"Must be adjacent to [0] to [4] [Elevated] tiles",
 			"Must be adjacent to [1] to [6] [Mountain] tiles"
 		],
+		"turnsInto": "Desert",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
@@ -71,12 +72,13 @@
 		"faith": 1,
 		"overrideStats": true,
 		"occursOn": ["Tundra","Permafrost"],
-		"impassable": true,
-		"unbuildable": true,
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [1] to [6] [Hill] tiles"
 		],
+		"turnsInto": "Tundra",
+		"impassable": true,
+		"unbuildable": true,
 		"weight": 2
 	}
 ]
