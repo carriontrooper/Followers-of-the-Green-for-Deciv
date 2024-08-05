@@ -61,7 +61,7 @@
 		"name": "Deer Tamer",
 		"uniques": [
 			"Gain [1]-[10] [Food] <upon ending a turn in a [Deer] tile>",
-			"Can transform to [Mutant Deer Rider] <costs [50 Gold] stats>"
+			"Can transform to [Mutant Deer Rider] <costs [+50 Gold] stats>"
 		]
 	},
 	{
@@ -74,35 +74,35 @@
 		"name": "Scorpion Wrangler",
 		"uniques": [
 			"Gain [5]-[20] [Gold] <upon ending a turn in a [Hostile Fauna] tile>",
-			"Can transform to [Mutant Scorpion Wrangler] <costs [50 Gold] stats>"
+			"Can transform to [Mutant Scorpion Wrangler] <costs [+50 Gold] stats>"
 		]
 	},
 	{
 		"name": "Hyena Wrangler",
 		"uniques": [
 			"Gain [5]-[20] [Gold] <upon ending a turn in a [Hostile Fauna] tile>",
-			"Can transform to [War Hyena Wrangler] <costs [70 Gold] stats>"
+			"Can transform to [War Hyena Wrangler] <costs [+70 Gold] stats>"
 		]
 	},
 	{
 		"name": "Elephant Tamer",
 		"uniques": [
 			"Gain [5]-[20] [Production] <upon ending a turn in a [Hostile Fauna] tile>",
-			"Can transform to [Mutant War Elephant] <costs [200 Gold] stats>"
+			"Can transform to [Mutant War Elephant] <costs [+200 Gold] stats>"
 		]
 	},
 	{
 		"name": "Hippo Wrangler",
 		"uniques": [
 			"Gain [5]-[20] [Culture] <upon ending a turn in a [Hostile Fauna] tile>",
-			"Can transform to [Mutant War Hippo] <costs [100 Gold] stats>"
+			"Can transform to [Mutant War Hippo] <costs [+100 Gold] stats>"
 		]
 	},
 	{
 		"name": "Hog Wrangler",
 		"uniques": [
 			"Gain [1]-[10] [Food] <upon ending a turn in a [Hogs] tile>",
-			"Can transform to [Mutant Hog Rider] <costs [70 Gold] stats>"
+			"Can transform to [Mutant Hog Rider] <costs [+70 Gold] stats>"
 		]
 	},
 	{
