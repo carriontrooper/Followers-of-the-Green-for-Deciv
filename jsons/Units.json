@@ -43,7 +43,7 @@
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
 			"[+1] Sight",
-			"Gain [2] [Faith] <when ending turn in a [Food Source] tile>",
+			"Gain [2] [Faith] <upon ending turn in a [Food Source] tile>",
 			"[+15] HP when healing",
 			"All adjacent units heal [+15] HP when healing",
 			"Excess Food converted to Production when under construction",
