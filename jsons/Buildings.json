@@ -61,6 +61,7 @@
 		"uniques": [
 			"[1] free [Lord's Watchdog] units appear",
 			"[1] free [Homesteader] units appear",
+			"Provides [1] [Weapons]",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Church Gardens] [in this city]",
 			"Automatically built in all cities where it is buildable"
