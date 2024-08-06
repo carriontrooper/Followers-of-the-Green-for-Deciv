@@ -31,4 +31,431 @@
 	UU: Charybdis-Class Submarine
 	UGP: Great Submarine Commander
 	*/
+
+	// Seekers of Eden
+	{
+		"name": "Homesteader",
+		"unitType": "Civilian",
+		"replaces": "Civilian Convoy",
+		"uniqueTo": "Seekers of Eden",
+		"movement": 3,
+		"cost": 106,
+		"uniques": [
+			"Founds a new city <by consuming this unit>",
+			"[+1] Sight",
+			"Gain [2] [Faith] <when ending turn in a [Food Source] tile>",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Lord's Watchdog",
+		"unitType": "Scrapper",
+		"replaces": "Militia",
+		"uniqueTo": "Seekers of Eden",
+		"movement": 2,
+		"strength": 37,
+		"interceptRange": 1,
+		"cost": 55,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": [
+			"Forage",
+			"Guardians of Eden"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
+
+	// The Menagerie
+	{
+		"name": "Beastmaster",
+		"unitType": "Scrapper",
+		"replaces": "Spearman",
+		"uniqueTo": "The Menagerie",
+		"movement": 2,
+		"strength": 21,
+		"cost": 50,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Mounted] units>",
+			"[+10]% Strength <in [resource] tiles>"
+		],
+		"promotions": [
+			"Beast Wrangler"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Mutant War Elephant",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Menagerie",
+		"movement": 3,
+		"strength": 60,
+		"cost": 200,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Advanced Materials",
+		"uniques": [
+			"Low Tech",
+			"Mounted",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[+20]% Strength <vs [Armor] units> <when attacking>",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Beast Genelabs]>"
+			//"Can only be built <in cities with a [Beast Genelabs]> <after discovering [Redomestication]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "elephant" //will this work?
+	},
+	{
+		"name": "Mutant War Hippo",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Menagerie",
+		"movement": 4,
+		"strength": 40,
+		"cost": 100,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"Low Tech",
+			"Mounted",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Beast Genelabs]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse" // add new hippo sound
+	},
+	{
+		"name": "War Hyena Wrangler",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Menagerie",
+		"movement": 2,
+		"strength": 30,
+		"cost": 50,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[+20]% Strength <vs [Wounded] units>",
+			"Can only be built <in cities with a [Beast Genelabs]>"
+		],
+		"attackSound": "nonmetalhit" // add new hyena sound
+	},
+	{
+		"name": "Mutant Hog Rider",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Menagerie",
+		"movement": 4,
+		"strength": 30,
+		"cost": 70,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"Low Tech",
+			"Mounted",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[+20]% to Flank Attack bonuses",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Beast Genelabs]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse" // add new hog sound
+	},
+	{
+		"name": "Mutant Deer Rider",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Menagerie",
+		"movement": 4,
+		"strength": 30,
+		"cost": 70,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"Low Tech",
+			"Mounted",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[+50]% Strength <when fighting in [Rough terrain] tiles>",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Beast Genelabs]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse" // add new deer sound
+	},
+	{
+		"name": "Mutant Scorpion Wrangler",
+		"unitType": "Scrapper",
+		"uniqueTo": "The Menagerie",
+		"movement": 2,
+		"strength": 30,
+		"cost": 40,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[-10]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
+			"Can only be built <in cities with a [Beast Genelabs]>"
+		],
+		"attackSound": "nonmetalhit" // add new scorpion sound
+	},
+	{
+		"name": "Menagerie Merchant",
+		"unitType": "Civilian",
+		"replaces": "Great Merchant",
+		"uniqueTo": "The Menagerie",
+		"uniques": [
+			"Gain [100]-[1000] [Gold] <in [City-States] tiles> <[3] times> <after which this unit is consumed>",
+			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+
+	// Ceiba Corp
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"replaces": "Worker",
+		"uniqueTo": "Ceiba Corp",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"upgradesTo": "Mechanized Worker",
+		"uniques": [
+			"[-50]% construction time for [Ecofriendly] improvements",
+			"Can build [Land] improvements on tiles",
+			"Can build [Water] improvements on tiles",
+			"Automation is a primary action"
+		],
+		"cost": 70
+	},
+
+	// Green Wardens
+	{
+		"name": "Young Scout",
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "Green Wardens",
+		"movement": 2,
+		"strength": 10,
+		"cost": 25,
+		//"upgradesTo": "Gunman",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech",
+			"[-50]% Strength <vs cities>",
+			"Unable to capture cities",
+			"Can upgrade to [Militia]",
+			"Can upgrade to [Park Ranger]",
+			"Can upgrade to [Horseman]",
+			"Can upgrade to [Hussar]",
+			"Can upgrade to [Dragoon]"
+		],
+		"promotions": ["Reconnaissance I", "Skirmish", "Green Scout"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Park Ranger",
+		"unitType": "Shooter",
+		"replaces": "Gunman",
+		"uniqueTo": "Green Wardens",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 60,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Rifleman",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"promotions": ["Reconnaissance I", "Skirmish", "Green Ranger"],
+		"attackSound": "shot"
+	},
+
+	// Charybdis Division
+	{
+		"name": "Nereid Scout",
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "Charybdis Division",
+		"movement": 2,
+		"strength": 12,
+		"cost": 25,
+		"upgradesTo": "Gunman",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech",
+			"[-50]% Strength <vs cities>",
+			"Unable to capture cities"
+		],
+		"promotions": ["Reconnaissance I", "Skirmish", "Oceanic Mutation"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Selkie Sapper",
+		"unitType": "Scrapper",
+		"replaces": "Militia",
+		"uniqueTo": "Charybdis Division",
+		"movement": 2,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 55,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Oceanic Mutation", "[Selkie Sapper] ability"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Siyokoi Chopper",
+		"unitType": "Scrapper",
+		"replaces": "Spearman",
+		"uniqueTo": "Charybdis Division",
+		"movement": 2,
+		"strength": 20,
+		"cost": 45,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Low Tech",
+			"[+25]% Strength <vs cities>",
+			"[+25]% Strength <vs [Low Tech] units>"
+		],
+		"promotions": ["Oceanic Mutation", "[Siyokoi Chopper] ability"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Nixie Sniper",
+		"unitType": "Shooter",
+		"replaces": "Gunman",
+		"uniqueTo": "Charybdis Division",
+		"range": 2,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 60,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Rifleman",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"promotions": ["Oceanic Mutation", "[Nixie Sniper] ability"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Isonade Shark",
+		"unitType": "Melee Water",
+		"uniqueTo": "Charybdis Division",
+		"movement": 4,
+		"strength": 35,
+		"cost": 90,
+		"requiredTech": "Navigation",
+		"uniques": [
+			"Double movement in [Coast]",
+			"Invisible to non-adjacent units <in [Ocean] tiles>",
+			"Withdraws before melee combat <with [33]% chance>",
+			"[+50]% Strength <vs [Wounded] units>",
+			"Only available <if [Mutant Fish Hatchery] is constructed>",
+			"Can only be built <in cities with a [Mutant Fish Hatchery]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns" // add new shark bite sound
+	},
+	{
+		"name": "Kraken Squid",
+		"unitType": "Submarine",
+		"uniqueTo": "Charybdis Division",
+		"movement": 5,
+		"strength": 80,
+		//"rangedStrength": 80,
+		"cost": 200,
+		"requiredTech": "Gyroscopes",
+		"uniques": [
+			"[+66]% Strength <when attacking>",
+			"[+33]% Strength <vs [Ranged Water] units> <when defending>",
+			"Can only attack [Water] tiles",
+			"Only available <if [Mutant Fish Hatchery] is constructed>",
+			"Can only be built <in cities with a [Mutant Fish Hatchery]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "torpedo" // add new kraken attack sound
+	},
+	{
+		"name": "Charybdis-Class Submarine",
+		"unitType": "Submarine",
+		"replaces": "Nuclear Submarine",
+		"uniqueTo": "Charybdis Division",
+		"movement": 6,
+		"strength": 60,
+		"range": 3,
+		"rangedStrength": 90,
+		"cost": 425,
+		"requiredTech": "Particle Physics",
+		"uniques": [
+			"Can move after attacking",
+			"[+75]% Strength <when attacking>",
+			"[+40]% Strength <vs [Ranged Water] units> <when defending>",
+			"Can only attack [Water] tiles",
+			"[+1] Sight",
+			"Can carry [2] [Missile] units",
+			"Only available <if [Factory] is constructed>",
+			"Only available <if [Coral Submarine Pen] is constructed>",
+			"Can only be built <in cities with a [Coral Submarine Pen]>",
+			"Consumes [1] [Uranium]",
+			"Can see invisible [{Wounded} {Water}] units"
+		],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Great Submarine Commander",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Charybdis Division",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+15]% Strength bonus for [Water] units within [2] tiles",
+			"[+15]% Strength bonus for [Submarine] units within [2] tiles",
+			"Great Person - [War]",
+			"Can be earned through combat",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"promotions": ["Oceanic Mutation"],
+		"movement": 2
+	}
 ]
