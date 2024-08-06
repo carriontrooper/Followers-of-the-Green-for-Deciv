@@ -151,5 +151,25 @@
 			"[+1] Movement <in [Water] tiles>",
 			"[-1] Movement <in [Land] tiles>"
 		]
-	}
+	},
+	{
+		"name": "[Selkie Sapper] ability",
+		"uniques": [
+			"[+50]% Strength <vs [Embarked] units>",
+			"[+50]% Strength <vs [Water] units>",
+			"Can see invisible [Water] units"
+		]
+	},
+	{
+		"name": "[Siyokoi Chopper] ability",
+		"uniques": [
+			"[+50]% Strength <vs [Wounded] units>"
+		]
+	},
+	{
+		"name": "[Nixie Sniper] ability",
+		"uniques": [
+			"Invisible to non-adjacent units <in [River] tiles>"
+		]
+	},
 ]
