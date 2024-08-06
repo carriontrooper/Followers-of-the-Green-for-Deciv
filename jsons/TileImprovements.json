@@ -138,7 +138,8 @@
 		"turnsToBuild": 6,
 		"uniques": [
 			"Gives a defensive bonus of [10]%",
-			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Gain control over [Food] tiles in a [1]-tile radius",
+			//"Constructing it will take over the tiles around it and assign them to your closest city",
 			//"Has an elevation of [+1] for visibility calculations",
 			//"[+1] Sight",
 			"Can be built outside your borders"
