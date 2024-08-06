@@ -108,6 +108,7 @@
 	{
 		"name": "Green Scout",
 		"uniques": [
+			"[+50]% XP gained from combat",
 			"[+1] Sight"
 		]
 	},
