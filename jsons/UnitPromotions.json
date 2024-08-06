@@ -124,6 +124,12 @@
 	},
 	{
 		"name": "Green Warden",
+		"prerequisites": [
+			"Green Ranger"
+		],
+		"unitTypes": [
+			"Shooter"
+		],
 		"uniques": [
 			"[+1] Sight",
 			"[+20]% Strength <in [Park] tiles>",
