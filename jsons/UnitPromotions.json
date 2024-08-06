@@ -12,7 +12,7 @@
 		"name": "Guardians of Eden",
 		"uniques": [
 			"[+20]% Strength <when defending> <in [Food source] tiles>",
-			"[+20]% Strength <when defending> <in tiles adjacent to [Food source]>"
+			"[+20]% Strength <when defending> <in tiles adjacent to [Food source] tiles>"
 		]
 	},
 	{
@@ -117,9 +117,9 @@
 		"uniques": [
 			"[+1] Sight",
 			"[+20]% Strength <when defending> <in [Park] tiles>",
-			"[+20]% Strength <when defending> <in tiles adjacent to [Park]>",
+			"[+20]% Strength <when defending> <in tiles adjacent to [Park] tiles>",
 			"[+20]% Strength <when defending> <in [Nature preserve] tiles>",
-			"[+20]% Strength <when defending> <in tiles adjacent to [Nature preserve]>"
+			"[+20]% Strength <when defending> <in tiles adjacent to [Nature preserve] tiles>"
 		]
 	},
 	{
@@ -133,9 +133,9 @@
 		"uniques": [
 			"[+1] Sight",
 			"[+20]% Strength <in [Park] tiles>",
-			"[+20]% Strength <in tiles adjacent to [Park]>",
+			"[+20]% Strength <in tiles adjacent to [Park] tiles>",
 			"[+20]% Strength <in [Nature preserve] tiles>",
-			"[+20]% Strength <in tiles adjacent to [Nature preserve]>"
+			"[+20]% Strength <in tiles adjacent to [Nature preserve] tiles>"
 		]
 	},
 	{
