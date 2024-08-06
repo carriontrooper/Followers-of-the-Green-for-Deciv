@@ -172,4 +172,11 @@
 			"Invisible to non-adjacent units <in [River] tiles>"
 		]
 	},
+	{
+		"name": "Armed Fisher",
+		"uniques": [
+			"Can instantly construct a [Armed Fishing Boats] improvement",
+			"[-20]% Strength for enemy [Military] units in adjacent [Water] tiles"
+		]
+	},
 ]
