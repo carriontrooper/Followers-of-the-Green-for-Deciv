@@ -135,11 +135,12 @@
 			"Permafrost",
 			"Swamp"
 		],
-		"turnsToBuild": 4,
+		"turnsToBuild": 6,
 		"uniques": [
 			"Gives a defensive bonus of [10]%",
-			"Has an elevation of [+1] for visibility calculations", //will this work?
-			"[+1] Sight",
+			"Constructing it will take over the tiles around it and assign them to your closest city",
+			//"Has an elevation of [+1] for visibility calculations",
+			//"[+1] Sight",
 			"Can be built outside your borders"
 		]
 	},
