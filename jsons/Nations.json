@@ -448,10 +448,8 @@
 		"uniqueName": "Eternal Patrol of the Damned",
 		"uniques": [
 			"All newly-trained [{Water} {Military}] units [in all cities] receive the [Scourge of the Seas] promotion",
-			"[+10]% Production when constructing [Water] units [in all coastal cities]",
-			// shunt these two to the promo
-			//"May capture killed [Water] units <with [50]% chance>",
-			//"May capture killed [Embarked] units <with [50]% chance>"
+			"All newly-trained [Work Boat] units [in all cities] receive the [Armed Fisher] promotion",
+			"[+10]% Production when constructing [Water] units [in all coastal cities]"
 		],
 		"cities": [
 			"Charybdis Base",
