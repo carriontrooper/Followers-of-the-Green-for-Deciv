@@ -1,3 +1,20 @@
 [
-	
+	{
+		"name": "Nature Worship",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [Food Source]"
+		]
+	},
+	{
+		"name": "Path of Green",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Faith, +1 Happiness] from every [Park]",
+			"[+2 Faith, +2 Happiness] from every [Nature preserve]",
+			"[+2 Faith, +2 Happiness] from every [Artificial oasis]",
+			"[+2 Faith, +2 Happiness] from every [Artificial glacier]",
+			"[+2 Faith, +2 Happiness] from every [Grassland]"
+		]
+	}
 ]
