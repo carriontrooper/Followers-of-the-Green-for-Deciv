@@ -236,7 +236,7 @@
 
 	// Ceiba Corp
 	{
-		"name": "Worker",
+		"name": "Eco-Engineer",
 		"unitType": "Civilian",
 		"replaces": "Worker",
 		"uniqueTo": "Ceiba Corp",
