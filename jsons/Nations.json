@@ -295,18 +295,18 @@
 		"personality": "Xotlanihua",
 		"preferredVictoryType":"Scientific",
 
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
+		"startIntroPart1": "At Ceiba Corp, we innovate on more climate-conscious solutions towards ecofriendly energy production. Our Green Energy Initiative project will provide your settlement with an ecofriendly power generation method that's tailored for you.",
+		"startIntroPart2": "Let us work towards a green utopia. Think green, think Ceiba!",
 
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "I'm sorry, but we MUST forcibly reverse your unsustainable industrial policies.",
+		"attacked": "You will soon find that we're built much sturdier than we look!",
+		"defeated": "We might be defeated, but I hope the dream of a greener future lives on. Goodbye.",
+		"introduction": "Welcome! I am Olivia Xotlanihua, CEO of Ceiba Corp. Let's step into a greener future, together!",
 
-		"neutralHello": ".",
-		"hateHello": ".",
+		"neutralHello": "Well hello! Are you here to adopt out Green Energy Initiative?",
+		"hateHello": "I'd prefer it more if you have a lesser carbon footprint...",
 
-		"tradeRequest": ".",
+		"tradeRequest": "Our sales and marketing department agree, this deal would be quite profitable!",
 
 		"outerColor": [92, 82, 68],
 		"innerColor": [144, 196, 106],
@@ -362,18 +362,18 @@
 		"personality": "Brooks",
 		"preferredVictoryType":"Cultural",
 
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
+		"startIntroPart1": "Attention campers! Today's yet another fine morning for a patrol. I know the end of the world had just come and gone, but you've all got what it needs to survive. Remember to respect nature, and she'll reward you for your diligence.",
+		"startIntroPart2": "Now, if you would open your revised survival handbook to page ten, you'd notice we've added a new section regarding radiation...",
 
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "Did I just catch you littering?! That's a hard punishment right there!",
+		"attacked": "Well, someone's not being a happy camper.",
+		"defeated": "Attention, all campers! As of today, there is no more camping. Dismissed!",
+		"introduction": "Salutations! I am Rowan Brooks, one of the Green Wardens. Remember to respect nature!",
 
-		"neutralHello": ".",
-		"hateHello": ".",
+		"neutralHello": "Salutations! What a fine morning!",
+		"hateHello": "Uh oh, look out, campers! Something stinks like a skunk!",
 
-		"tradeRequest": ".",
+		"tradeRequest": "Some of our campers need to earn their trading badge, you see...",
 
 		"outerColor": [240, 206, 144],
 		"innerColor": [39, 94, 5],
@@ -429,18 +429,18 @@
 		"personality": "Vergen",
 		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
+		"startIntroPart1": "ATTN: to all 'Charybdis' personnel: as of REDACTED hours, protocol 'Orpheus' is in effect. Board your REDACTED and grab your injection kits, remember to grab the 'Davy Jones' as per protocol.",
+		"startIntroPart2": "To REDACTED commanders, your new orders should encompass DATA MISSING. Details should be included in the transmission. This order is to be followed indefinitely. Good luck, and godspeed.",
 
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "New protocols have been received - 'Blood is in the Water'. Finally, it's about time!",
+		"attacked": "Protocol dictates that retaliation is the proper response - but personally, I'm going to enjoy this.",
+		"defeated": "All hands, abandon ship. Protocol 'Whalefall' is now in effect. To my foe - see you in the abyss.",
+		"introduction": "This is Last Admiral Jung Vergen. Know that you are being monitored, do not test my patience.",
 
-		"neutralHello": ".",
-		"hateHello": ".",
+		"neutralHello": "Speak quickly.",
+		"hateHello": "The chum dares to talk?",
 
-		"tradeRequest": ".",
+		"tradeRequest": "We require supplies. That being said, we're currently open to reimburse.",
 
 		"outerColor": [24, 18, 105],
 		"innerColor": [0, 207, 145],
