@@ -31,6 +31,7 @@
 			"[+1 Food] from [Fresh water] tiles",
 			"[+1 Food] <after discovering [Land Remediation]>",
 			"Gives a defensive bonus of [20]%",
+			"Improves [resourceFilter] resource in this tile",
 			"Cannot be built on [Fissure] tiles",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
