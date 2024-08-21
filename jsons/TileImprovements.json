@@ -109,6 +109,7 @@
 			"Ecofriendly",
 			"Provides [3] [Power]",
 			"Provides [3] [Green Energy] <if [Green Energy Initiative] is constructed>",
+			"Provides [3] [Steam] <if [Steampunk Nations for Deciv] is enabled>",
 			"Unbuildable <within [1] tiles of a [Geothermal Tap]>",
 			"[+1 Production] <after discovering [Steam Power]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
