@@ -5,6 +5,7 @@
 	Cider
 	Exotic Beasts
 	Green Energy
+	Rad-Glass
 	*/
 	{
 		"name": "Grapes",
@@ -24,6 +25,10 @@
 	},
 	{
 		"name": "Green Energy",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Rad-Glass",
 		"resourceType": "Luxury"
 	}
 ]
