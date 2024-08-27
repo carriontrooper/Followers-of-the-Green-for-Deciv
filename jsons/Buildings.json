@@ -664,5 +664,136 @@
 			"Provides [1] [Power] <for every [Green Energy]>",
 			"Cost increases by [30] per owned city"
 		]
+	},
+
+	// new wonder enhancers
+	/*
+	Fort Mountain Faces
+	Mountain Faces Park
+	Torch Lady Lighthouse
+	Red Rock Pilgrimage Site
+	Glass Crater Scientific Outpost
+	Glass Mine
+	Glade Conservatory
+	*/
+	{
+		"name": "Fort Mountain Faces",
+		"isWonder": true,
+		"requiredTech": "Engineering",
+		"cityStrength": 60,
+		"cityHealth": 60,
+		"uniques": [
+			"Must have an owned [Mountain Faces] within [3] tiles",
+			"Earn [50]% of the damage done to [Military] units as [Culture]"
+		],
+		"quote": "These four stone faces are the faces of our ancestors, may they continue to protect us.",
+		"civilopediaText": [
+			{
+				"text": "These four stone faces are the faces of our ancestors, may they continue to protect us."
+			}
+		]
+	},
+	{
+		"name": "Mountain Faces Park",
+		"isWonder": true,
+		"requiredTech": "Education",
+		"culture": 6,
+		"uniques": [
+			"Must have an owned [Mountain Faces] within [3] tiles",
+		],
+		"quote": "These faces might have seen the ugly past, but now they're going to see a beautiful future.",
+		"civilopediaText": [
+			{
+				"text": "These faces might have seen the ugly past, but now they're going to see a beautiful future."
+			}
+		]
+	},
+	{
+		"name": "Torch Lady Lighthouse",
+		"isWonder": true,
+		"requiredTech": "Education",
+		"culture": 2,
+		"gold": 2,
+		"uniques": [
+			"Must have an owned [Torch Lady] within [3] tiles",
+			"[+1 Faith] [in this city] <with [1] to [6] neighboring [Coast] tiles>",
+			"[+1] Movement <for [Water] units>",
+			"Consumes [1] [Power]"
+		],
+		"quote": "Give me your tired, your poor, Your huddled masses yearning to breathe free, The wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!",
+		"civilopediaText": [
+			{
+				"text": "Give me your tired, your poor, Your huddled masses yearning to breathe free, The wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!"
+			}
+		]
+	},
+	{
+		"name": "Red Rock Pilgrimage Site",
+		"isWonder": true,
+		"requiredTech": "The Wheel",
+		"faith": 3,
+		"uniques": [
+			"Must have an owned [Sacred Red Rock] within [3] tiles",
+			"[-20]% Faith cost of generating Great Prophet equivalents"
+		],
+		"quote": "They who dream by day are cognizant of many things which escape those who dream only by night.",
+		"civilopediaText": [
+			{
+				"text": "They who dream by day are cognizant of many things which escape those who dream only by night."
+			}
+		]
+	},
+	{
+		"name": "Glass Crater Scientific Outpost",
+		"isWonder": true,
+		"requiredTech": "Decontamination",
+		"science": 6,
+		"uniques": [
+			"Must have an owned [Glass Crater] within [3] tiles",
+			"[-25]% construction time for [Remove Fallout] improvements"
+		],
+		"quote": "Just at that instance there rose from the bowels of the earth a light not of this world, the light of many suns in one.",
+		"civilopediaText": [
+			{
+				"text": "Just at that instance there rose from the bowels of the earth a light not of this world, the light of many suns in one."
+			}
+		]
+	},
+	{
+		"name": "Glass Mine",
+		"isWonder": true,
+		"requiredTech": "Decontamination",
+		"production": 3,
+		"gold": 3,
+		"uniques": [
+			"Must have an owned [Glass Crater] within [3] tiles",
+			"Provides [3] [Rad-Glass]"
+		],
+		"quote": "Who knew something so davastatingly terrible can produce such beauty?",
+		"civilopediaText": [
+			{
+				"text": "Who knew something so davastatingly terrible can produce such beauty?"
+			}
+		]
+	},
+	{
+		"name": "Glade Conservatory",
+		"isWonder": true,
+		"requiredTech": "Ecology",
+		"food": 3,
+		"gold": 3,
+		"uniques": [
+			"Must have an owned [Secret Glade] within [3] tiles",
+			"[+1 Food] from [Tundra] tiles [in this city]",
+			"[+1 Food] from [Permafrost] tiles [in this city]",
+			"[+2 Faith] <after founding a Pantheon>",
+			"Provides [3] [Exotic Seeds]"
+		],
+		"quote": "I care not, Fortune, what you me deny,\nYou cannot rob me of free Nature's grace,\nYou cannot shut the windows of the sky,\nThrough which Aurora shows her brightening face.",
+		"civilopediaText": [
+			{
+				"text": "I care not, Fortune, what you me deny,\nYou cannot rob me of free Nature's grace,\nYou cannot shut the windows of the sky,\nThrough which Aurora shows her brightening face."
+			}
+		]
 	}
 ]
