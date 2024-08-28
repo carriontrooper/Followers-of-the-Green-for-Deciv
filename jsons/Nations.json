@@ -449,7 +449,8 @@
 		"uniques": [
 			"All newly-trained [{Water} {Military}] units [in all cities] receive the [Scourge of the Seas] promotion",
 			"All newly-trained [Work Boat] units [in all cities] receive the [Armed Fisher] promotion",
-			"[+10]% Production when constructing [Water] units [in all coastal cities]"
+			"[+10]% Production when constructing [Water] units [in all coastal cities]",
+			"Starts with [Sailing]"
 		],
 		"cities": [
 			"Charybdis Base",
