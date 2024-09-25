@@ -88,3 +88,10 @@ TileSets/FantasyHex/Tiles/Sacred Red Rock
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Secret Glade
+  rotate: false
+  xy: 948, 72
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
