@@ -61,7 +61,7 @@
 		"name": "Deer Tamer",
 		"uniques": [
 			"Gain [1]-[10] [Food] <upon ending a turn in a [Deer] tile>",
-			"Can transform to [Mutant Deer Rider] <costs [+50 Gold] stats>"
+			"Can transform to [Mutant Deer Rider] <costs [+50 Gold] stats> <for units with [Deer Tamer]> <removing the [Deer Tamer] promotion/status>"
 		]
 	},
 	{
@@ -74,35 +74,35 @@
 		"name": "Scorpion Wrangler",
 		"uniques": [
 			"Gain [5]-[20] [Gold] <upon ending a turn in a [Hostile Fauna] tile>",
-			"Can transform to [Mutant Scorpion Wrangler] <costs [+50 Gold] stats>"
+			"Can transform to [Mutant Scorpion Wrangler] <costs [+50 Gold] stats> <for units with [Scorpion Wrangler]> <removing the [Scorpion Wrangler] promotion/status>"
 		]
 	},
 	{
 		"name": "Hyena Wrangler",
 		"uniques": [
 			"Gain [5]-[20] [Gold] <upon ending a turn in a [Hostile Fauna] tile>",
-			"Can transform to [War Hyena Wrangler] <costs [+70 Gold] stats>"
+			"Can transform to [War Hyena Wrangler] <costs [+70 Gold] stats> <for units with [Hyena Wrangler]> <removing the [Hyena Wrangler] promotion/status>"
 		]
 	},
 	{
 		"name": "Elephant Tamer",
 		"uniques": [
 			"Gain [5]-[20] [Production] <upon ending a turn in a [Hostile Fauna] tile>",
-			"Can transform to [Mutant War Elephant] <costs [+200 Gold] stats>"
+			"Can transform to [Mutant War Elephant] <costs [+200 Gold] stats> <for units with [Elephant Tamer]> <removing the [Elephant Tamer] promotion/status>"
 		]
 	},
 	{
 		"name": "Hippo Wrangler",
 		"uniques": [
 			"Gain [5]-[20] [Culture] <upon ending a turn in a [Hostile Fauna] tile>",
-			"Can transform to [Mutant War Hippo] <costs [+100 Gold] stats>"
+			"Can transform to [Mutant War Hippo] <costs [+100 Gold] stats> <for units with [Hippo Wrangler]> <removing the [Hippo Wrangler] promotion/status>"
 		]
 	},
 	{
 		"name": "Hog Wrangler",
 		"uniques": [
 			"Gain [1]-[10] [Food] <upon ending a turn in a [Hogs] tile>",
-			"Can transform to [Mutant Hog Rider] <costs [+70 Gold] stats>"
+			"Can transform to [Mutant Hog Rider] <costs [+70 Gold] stats> <for units with [Hog Wrangler]> <removing the [Hog Wrangler] promotion/status>"
 		]
 	},
 	{
