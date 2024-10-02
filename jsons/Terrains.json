@@ -68,8 +68,8 @@
 	{
 		"name": "Secret Glade",
 		"type": "NaturalWonder",
-		"food": 1,
-		"faith": 1,
+		"food": 2,
+		"faith": 2,
 		"overrideStats": true,
 		"occursOn": ["Tundra","Permafrost"],
 		"uniques": [
