@@ -5,9 +5,9 @@
 		"type": "NaturalWonder",
 		"gold": 1,
 		"culture": 2,
-		"occursOn": ["Wasteland", "Badlands","Tundra"],
+		"occursOn": ["Wasteland", "Badlands", "Tundra"],
 		"uniques": [
-			"Must be adjacent to [1] [Mountain] tiles",
+			"Must be adjacent to [1] [Mountain] tiles"
 		],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -33,7 +33,6 @@
 		"name": "Sacred Red Rock",
 		"type": "NaturalWonder",
 		"occursOn": ["Desert"],
-		"turnsInto": "Desert",
 		"faith": 5,
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
@@ -71,7 +70,7 @@
 		"food": 2,
 		"faith": 2,
 		"overrideStats": true,
-		"occursOn": ["Tundra","Permafrost"],
+		"occursOn": ["Tundra", "Permafrost"],
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [1] to [6] [Hill] tiles"

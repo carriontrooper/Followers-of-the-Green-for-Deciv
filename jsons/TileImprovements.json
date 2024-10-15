@@ -28,7 +28,7 @@
 		"uniques": [
 			"Food source",
 			"Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [Fresh water] tiles",
+			"[+1 Food] from [Fresh water] tiles <if [Outlaws of the Wastes] is not enabled>",
 			"[+1 Food] <after discovering [Land Remediation]>",
 			"Gives a defensive bonus of [20]%",
 			"Improves [Grain] resource in this tile",
@@ -36,8 +36,8 @@
 			"Improves [Horses] resource in this tile",
 			"Improves [Cattle] resource in this tile",
 			"Improves [Hogs] resource in this tile",
-			//"Improves [Maize] resource in this tile <if [Outlaws of the Wastes] is enabled>",
-			//"Improves [Cactus] resource in this tile <if [Outlaws of the Wastes] is enabled>",
+			"Improves [Maize] resource in this tile <if [Outlaws of the Wastes] is enabled>",
+			"Improves [Cactus] resource in this tile <if [Outlaws of the Wastes] is enabled>",
 			"Cannot be built on [Fissure] tiles",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
@@ -53,7 +53,7 @@
 			"Food source",
 			"Can also be built on tiles adjacent to fresh water",
 			"Provides [1] [Grapes]",
-			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"[+1 Food, -1 Gold] from [Fresh water] tiles <if [Outlaws of the Wastes] is not enabled>",
 			"[+1 Food] <after discovering [Land Remediation]>",
 			"Cannot be built on [Fissure] tiles",
 			"Pillaging this improvement yields approximately [+30 Gold]"
@@ -61,7 +61,7 @@
 	},
 	{
 		"name": "Helix Wind Farm",
-		"replaces": "Wind farm"
+		"replaces": "Wind farm",
 		"uniqueTo": "Ceiba Corp",
 		"terrainsCanBeBuiltOn": [
 			"Hill"
@@ -80,7 +80,7 @@
 	},
 	{
 		"name": "Solar Farm",
-		"replaces": "Solar collector"
+		"replaces": "Solar collector",
 		"uniqueTo": "Ceiba Corp",
 		"terrainsCanBeBuiltOn": [
 			"Badlands",
@@ -234,9 +234,9 @@
 			"Improves [Algae] resource in this tile",
 			"Improves [Jellyfish] resource in this tile",
 			"Improves [Plankton] resource in this tile",
-			//"Improves [Deepwater Fish] resource in this tile <if [Outlaws of the Wastes] is enabled>",
-			//"Improves [Mutant Eel] resource in this tile <if [Outlaws of the Wastes] is enabled>",
-			//"Improves [Sea Fauna] resource in this tile <if [Forgotten Factions for Deciv] is enabled>",
+			"Improves [Deepwater Fish] resource in this tile <if [Outlaws of the Wastes] is enabled>",
+			"Improves [Mutant Eel] resource in this tile <if [Outlaws of the Wastes] is enabled>",
+			"Improves [Sea Fauna] resource in this tile <if [Forgotten Factions for Deciv] is enabled>",
 			"Gives a defensive bonus of [25]%",
 			"Adjacent enemy units ending their turn take [10] damage",
 			"Pillaging this improvement yields approximately [+10 Gold]"
