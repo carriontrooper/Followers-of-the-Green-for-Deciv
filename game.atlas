@@ -6,92 +6,134 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Ceiba Corp
   rotate: false
-  xy: 4, 4
+  xy: 4, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Charybdis Division
   rotate: false
-  xy: 112, 4
+  xy: 112, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Green Wardens
   rotate: false
-  xy: 328, 4
+  xy: 328, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Seekers of Eden
   rotate: false
-  xy: 652, 4
+  xy: 652, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Menagerie
   rotate: false
-  xy: 760, 4
+  xy: 760, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Eternal Watch
   rotate: false
-  xy: 220, 4
+  xy: 220, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Green Way
   rotate: false
-  xy: 436, 4
+  xy: 436, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Lost Eden
   rotate: false
-  xy: 544, 4
+  xy: 544, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Glass Crater
   rotate: false
-  xy: 868, 76
+  xy: 868, 48
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lady of the Torch
   rotate: false
-  xy: 868, 32
+  xy: 868, 4
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mountain Faces
   rotate: false
-  xy: 908, 72
+  xy: 948, 80
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sacred Red Rock
   rotate: false
-  xy: 908, 36
+  xy: 948, 44
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Secret Glade
   rotate: false
-  xy: 948, 72
+  xy: 908, 8
   size: 32, 32
   orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Beastmaster
+  rotate: false
+  xy: 868, 84
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Homesteader
+  rotate: false
+  xy: 908, 84
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lord's Watchdog
+  rotate: false
+  xy: 908, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mutant War Elephant
+  rotate: false
+  xy: 988, 84
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mutant War Hippo
+  rotate: false
+  xy: 988, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/War Hyena Wrangler
+  rotate: false
+  xy: 988, 12
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
