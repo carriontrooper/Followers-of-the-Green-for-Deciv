@@ -508,7 +508,7 @@
 			"Remove extra unhappiness from annexed cities",
 			"[-25]% enemy spy effectiveness [in this city]",
 			"Destroyed when the city is captured",
-			"Hidden when espionage is disabled"
+			"Only available <when espionage is enabled>"
 		],
 		"requiredTech": "Civil Service"
 	},
