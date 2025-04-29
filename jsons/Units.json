@@ -139,7 +139,7 @@
 			"Can only be built <in cities with a [Beast Genelabs]>"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "horse" // add new hippo sound
+		"attackSound": "hippo" // add new hippo sound
 	},
 	{
 		"name": "War Hyena Wrangler",
@@ -156,7 +156,7 @@
 			"[+20]% Strength <vs [Wounded] units>",
 			"Can only be built <in cities with a [Beast Genelabs]>"
 		],
-		"attackSound": "nonmetalhit" // add new hyena sound
+		"attackSound": "hyena" // add new hyena sound
 	},
 	{
 		"name": "Mutant Hog Rider",
@@ -178,7 +178,7 @@
 			"Can only be built <in cities with a [Beast Genelabs]>"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "horse" // add new hog sound
+		"attackSound": "hog" // add new hog sound
 	},
 	{
 		"name": "Mutant Deer Rider",
@@ -200,7 +200,7 @@
 			"Can only be built <in cities with a [Beast Genelabs]>"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "horse" // add new deer sound
+		"attackSound": "deer" // add new deer sound
 	},
 	{
 		"name": "Mutant Scorpion Wrangler",
@@ -217,7 +217,7 @@
 			"[-10]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
 			"Can only be built <in cities with a [Beast Genelabs]>"
 		],
-		"attackSound": "nonmetalhit" // add new scorpion sound
+		"attackSound": "scorpion" // add new scorpion sound
 	},
 	{
 		"name": "Menagerie Merchant",
@@ -315,7 +315,7 @@
 			"Unable to capture cities"
 		],
 		"promotions": ["Reconnaissance I", "Skirmish", "Oceanic Mutation"],
-		"attackSound": "nonmetalhit"
+		"attackSound": "nereidscout"
 	},
 	{
 		"name": "Selkie Sapper",
@@ -335,7 +335,7 @@
 		],
 		"promotions": ["Oceanic Mutation", "[Selkie Sapper] ability"],
 		"hurryCostModifier": 20,
-		"attackSound": "machinegun"
+		"attackSound": "selkiesapper"
 	},
 	{
 		"name": "Siyokoi Chopper",
@@ -393,7 +393,7 @@
 			"Can only be built <in cities with a [Mutant Fish Hatchery]>"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "shipguns" // add new shark bite sound
+		"attackSound": "sharkbite" // add new shark bite sound
 	},
 	{
 		"name": "Kraken Squid",
