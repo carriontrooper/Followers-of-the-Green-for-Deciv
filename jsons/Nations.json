@@ -252,8 +252,8 @@
 			"[+2 Gold, +1 Culture] from each Trade Route",
 			"[+10]% Production when constructing [Mounted] units [in all cities] <in cities with a [Stable]>",
 			"[+10]% Production when constructing [Mounted] units [in all cities] <in cities with a [Ranch]>",
-			"[+10]% Production when constructing [Beast Handler] units [in all cities] <in cities with a [Stable]>",
-			"[+10]% Production when constructing [Beast Handler] units [in all cities] <in cities with a [Ranch]>"
+			"[+10]% Production when constructing [Beast Wrangler] units [in all cities] <in cities with a [Stable]>",
+			"[+10]% Production when constructing [Beast Wrangler] units [in all cities] <in cities with a [Ranch]>"
 		],
 		"cities": [
 			"Lagos",
