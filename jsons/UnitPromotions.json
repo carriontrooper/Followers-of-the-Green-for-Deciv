@@ -148,6 +148,7 @@
 	{
 		"name": "Oceanic Mutation",
 		"uniques": [
+			"Oceanic Mutant",
 			"[+1] Movement <in [Water] tiles>",
 			"[-1] Movement <in [Land] tiles>"
 		]
