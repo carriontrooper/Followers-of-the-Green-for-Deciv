@@ -363,7 +363,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+10]% growth [in all cities]",
-			"[+5]% Production when constructing [Beast Handler] units [in this city]",
+			"[+5]% Production when constructing [Beast Wrangler] units [in this city]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Breeder's Guild]>",
@@ -603,7 +603,7 @@
 		"uniques": [
 			"Must be next to [Coast]",
 			"[+1 Food] from [Coast] tiles [in this city]",
-			"[+5]% Production when constructing [Oceanic Mutation] units [in this city]",
+			"[+5]% Production when constructing [Oceanic Mutant] units [in this city]",
 		]
 	},
 	{
