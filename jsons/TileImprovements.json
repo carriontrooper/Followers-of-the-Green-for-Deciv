@@ -238,6 +238,7 @@
 			"Improves [Algae] resource in this tile",
 			"Improves [Jellyfish] resource in this tile",
 			"Improves [Plankton] resource in this tile",
+			"Improves [Deep-sea Fish] resource in this tile",
 			//"Improves [Deepwater Fish] resource in this tile <if [Outlaws of the Wastes] is enabled>",
 			"Improves [Deepwater Fish] resource in this tile",
 			//"Improves [Mutant Eel] resource in this tile <if [Outlaws of the Wastes] is enabled>",
