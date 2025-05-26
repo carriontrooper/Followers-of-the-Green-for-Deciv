@@ -717,7 +717,7 @@
 		"culture": 2,
 		"gold": 2,
 		"uniques": [
-			"Must have an owned [Torch Lady] within [3] tiles",
+			"Must have an owned [Lady of the Torch] within [3] tiles",
 			"[+1 Faith] [in this city] <with [1] to [6] neighboring [Coast] tiles>",
 			"[+1] Movement <for [Water] units>",
 			"Consumes [1] [Power]"
