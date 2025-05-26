@@ -324,6 +324,7 @@
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Low Tech",
+			"Oceanic Mutant",
 			"[-50]% Strength <vs cities>",
 			"Unable to capture cities"
 		],
@@ -344,6 +345,7 @@
 		"upgradesTo": "Soldier",
 		"uniques": [
 			"Personnel",
+			"Oceanic Mutant",
 			"Consumes [1] [Weapons]"
 		],
 		"promotions": ["Oceanic Mutation", "[Selkie Sapper] ability"],
@@ -364,6 +366,7 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Low Tech",
+			"Oceanic Mutant",
 			"[+25]% Strength <vs cities>",
 			"[+25]% Strength <vs [Low Tech] units>"
 		],
@@ -385,7 +388,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"uniques": ["Personnel", "Oceanic Mutant", "Consumes [1] [Weapons]"],
 		"promotions": ["Oceanic Mutation", "[Nixie Sniper] ability"],
 		"attackSound": "shot"
 	},
@@ -398,6 +401,7 @@
 		"cost": 90,
 		"requiredTech": "Navigation",
 		"uniques": [
+			"Oceanic Mutant",
 			"Double movement in [Coast]",
 			"Invisible to non-adjacent units <in [Ocean] tiles>",
 			"Withdraws before melee combat <with [33]% chance>",
@@ -418,6 +422,7 @@
 		"cost": 200,
 		"requiredTech": "Gyroscopes",
 		"uniques": [
+			"Oceanic Mutant",
 			"[+66]% Strength <when attacking>",
 			"[+33]% Strength <vs [Ranged Water] units> <when defending>",
 			"Can only attack [Water] tiles",
@@ -459,6 +464,7 @@
 		"replaces": "Great General",
 		"uniqueTo": "Charybdis Division",
 		"uniques": [
+			"Oceanic Mutant",
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[+15]% Strength bonus for [Water] units within [2] tiles",
