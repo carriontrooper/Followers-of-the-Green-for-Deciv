@@ -96,6 +96,7 @@
 		"neutralHello": ".",
 		"hateHello": ".",
 
+		"denounced": ".",
 		"tradeRequest": ".",
 
 		"outerColor": [85, 85, 85],
@@ -161,6 +162,7 @@
 		"neutralHello": "Be welcomed upon Eden.",
 		"hateHello": "Pray the Lord not smite ye today, heretic.",
 
+		"denounced": "The Lord shall side with the oppressed.",
 		"tradeRequest": "Consider this a means of almsgiving.",
 
 		"outerColor": [137, 204, 73],
@@ -234,6 +236,7 @@
 		"neutralHello": "Welcome, welcome! Are you here to see the wares?",
 		"hateHello": "Ahh, the fresh meat came by themselves, how nice of you.",
 
+		"denounced": "All bark, no bite. You'll sell for cheap.",
 		"tradeRequest": "May I interest you in a bargain, perhaps?",
 
 		"outerColor": [74, 79, 21],
@@ -306,6 +309,7 @@
 		"neutralHello": "Well hello! Are you here to adopt out Green Energy Initiative?",
 		"hateHello": "I'd prefer it more if you have a lesser carbon footprint...",
 
+		"denounced": "We are sorry that you do not think of the environment as an important issue.",
 		"tradeRequest": "Our sales and marketing department agree, this deal would be quite profitable!",
 
 		"outerColor": [92, 82, 68],
@@ -373,6 +377,7 @@
 		"neutralHello": "Salutations! What a fine morning!",
 		"hateHello": "Uh oh, look out, campers! Something stinks like a skunk!",
 
+		"denounced": "Not everyone is cut out to be a Warden.",
 		"tradeRequest": "Some of our campers need to earn their trading badge, you see...",
 
 		"outerColor": [240, 206, 144],
@@ -440,6 +445,7 @@
 		"neutralHello": "Speak quickly.",
 		"hateHello": "The chum dares to talk?",
 
+		"denounced": "Careful, now. You are in dangerous waters.",
 		"tradeRequest": "We require supplies. That being said, we're currently open to reimburse.",
 
 		"outerColor": [24, 18, 105],
