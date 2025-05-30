@@ -101,6 +101,7 @@
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
 		"uniques": [
+			"Beast Wrangler",
 			"Low Tech",
 			"[+50]% Strength <vs [Mounted] units>",
 			"[+10]% Strength <in [resource] tiles>"
@@ -120,6 +121,7 @@
 		"requiredTech": "Redomestication",
 		"obsoleteTech": "Advanced Materials",
 		"uniques": [
+			"Beast Wrangler",
 			"Low Tech",
 			"Mounted",
 			"[+50]% Strength <vs [Low Tech] units>",
@@ -143,6 +145,7 @@
 		"requiredTech": "Redomestication",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
+			"Beast Wrangler",
 			"Low Tech",
 			"Mounted",
 			"[+50]% Strength <vs [Low Tech] units>",
@@ -164,6 +167,7 @@
 		"requiredTech": "Redomestication",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
+			"Beast Wrangler",
 			"Low Tech",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[+20]% Strength <vs [Wounded] units>",
@@ -181,6 +185,7 @@
 		"requiredTech": "Redomestication",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
+			"Beast Wrangler",
 			"Low Tech",
 			"Mounted",
 			"[+50]% Strength <vs [Low Tech] units>",
@@ -203,6 +208,7 @@
 		"requiredTech": "Redomestication",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
+			"Beast Wrangler",
 			"Low Tech",
 			"Mounted",
 			"[+50]% Strength <vs [Low Tech] units>",
@@ -225,6 +231,7 @@
 		"requiredTech": "Redomestication",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
+			"Beast Wrangler",
 			"Low Tech",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-10]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
