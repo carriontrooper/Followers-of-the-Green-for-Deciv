@@ -97,6 +97,7 @@
 		"hateHello": ".",
 
 		"denounced": ".",
+		"declaringFriendship": ".",
 		"tradeRequest": ".",
 
 		"outerColor": [85, 85, 85],
@@ -163,6 +164,7 @@
 		"hateHello": "Pray the Lord not smite ye today, heretic.",
 
 		"denounced": "The Lord shall side with the oppressed.",
+		"declaringFriendship": "Eden welcomes those who are kind. May the Lord walk with you.",
 		"tradeRequest": "Consider this a means of almsgiving.",
 
 		"outerColor": [137, 204, 73],
@@ -237,6 +239,7 @@
 		"hateHello": "Ahh, the fresh meat came by themselves, how nice of you.",
 
 		"denounced": "All bark, no bite. You'll sell for cheap.",
+		"declaringFriendship": "Oh ho, rare to see someone who isn't afraid of us! You'll make a fine trade partner.",
 		"tradeRequest": "May I interest you in a bargain, perhaps?",
 
 		"outerColor": [74, 79, 21],
@@ -310,6 +313,7 @@
 		"hateHello": "I'd prefer it more if you have a lesser carbon footprint...",
 
 		"denounced": "We are sorry that you do not think of the environment as an important issue.",
+		"declaringFriendship": "We are glad to see you. Let's work together, towards a greener future!",
 		"tradeRequest": "Our sales and marketing department agree, this deal would be quite profitable!",
 
 		"outerColor": [92, 82, 68],
@@ -378,6 +382,7 @@
 		"hateHello": "Uh oh, look out, campers! Something stinks like a skunk!",
 
 		"denounced": "Not everyone is cut out to be a Warden.",
+		"declaringFriendship": "I respect those who respect nature, and friend, you look like nature respects you.",
 		"tradeRequest": "Some of our campers need to earn their trading badge, you see...",
 
 		"outerColor": [240, 206, 144],
@@ -446,6 +451,7 @@
 		"hateHello": "The chum dares to talk?",
 
 		"denounced": "Careful, now. You are in dangerous waters.",
+		"declaringFriendship": "This might be a breach of protocol, but we'll spare you for last.",
 		"tradeRequest": "We require supplies. That being said, we're currently open to reimburse.",
 
 		"outerColor": [24, 18, 105],
