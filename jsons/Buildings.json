@@ -506,7 +506,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+1 Culture] <within [3] tiles of a [Park]>",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"[-25]% enemy spy effectiveness [in this city]",
 			"Destroyed when the city is captured",
 			"Only available <when espionage is enabled>"
