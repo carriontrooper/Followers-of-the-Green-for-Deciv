@@ -466,6 +466,29 @@
 		"attackSound": "torpedo"
 	},
 	{
+		"name": "Leviathan-Class Submarine",
+		"unitType": "Submarine",
+		"replaces": "Nuclear Submarine",
+		"uniqueTo": "Charybdis Division",
+		"movement": 6,
+		"strength": 70,
+		"range": 3,
+		"rangedStrength": 100,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Can move after attacking",
+			"[+75]% Strength <when attacking>",
+			"[+40]% Strength <vs [Ranged Water] units> <when defending>",
+			"Can only attack [Water] tiles",
+			"[+1] Sight",
+			"Can carry [3] [Missile] units",
+			"Consumes [1] [Uranium]",
+			"Can see invisible [{Wounded} {Water}] units"
+		],
+		"attackSound": "torpedo"
+	},
+	{
 		"name": "Great Submarine Commander",
 		"unitType": "Civilian",
 		"replaces": "Great General",
@@ -476,6 +499,7 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[+15]% Strength bonus for [Water] units within [2] tiles",
 			"[+15]% Strength bonus for [Submarine] units within [2] tiles",
+			"Free [Leviathan-Class Submarine] appears <by consuming this unit>", //test if this works or not
 			"Great Person - [War]",
 			"Can be earned through combat",
 			"Unbuildable",
