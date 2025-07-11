@@ -474,7 +474,7 @@
 		"range": 3,
 		"rangedStrength": 100,
 		"uniques": [
-			"Unbuildable",
+			"Unavailable",
 			"Cannot be purchased",
 			"Can move after attacking",
 			"[+75]% Strength <when attacking>",
