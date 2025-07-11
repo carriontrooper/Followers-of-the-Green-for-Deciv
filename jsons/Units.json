@@ -468,7 +468,6 @@
 	{
 		"name": "Leviathan-Class Submarine",
 		"unitType": "Submarine",
-		"replaces": "Nuclear Submarine",
 		"uniqueTo": "Charybdis Division",
 		"movement": 6,
 		"strength": 70,
@@ -486,6 +485,7 @@
 			"Consumes [1] [Uranium]",
 			"Can see invisible [{Wounded} {Water}] units"
 		],
+		"promotions": ["Wolfpack I"],
 		"attackSound": "torpedo"
 	},
 	{
