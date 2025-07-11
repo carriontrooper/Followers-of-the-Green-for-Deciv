@@ -155,6 +155,7 @@
 			"[1] free [Siyokoi Chopper] units appear",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Coral Submarine Pen] [in this city]",
+			"[1] free [Great Submarine Commander] units appear", //testing
 			"Automatically built in all cities where it is buildable"
 		],
 		"quote": "Part of the crew, part of the fleet! Always vigilant, always discreet! Man the helm and fire control! We dive deep, in our eternal patrol!",
