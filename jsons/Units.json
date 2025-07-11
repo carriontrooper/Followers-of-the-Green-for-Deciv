@@ -499,7 +499,8 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[+15]% Strength bonus for [Water] units within [2] tiles",
 			"[+15]% Strength bonus for [Submarine] units within [2] tiles",
-			"[1] free [Leviathan-Class Submarine] units appear <by consuming this unit>", //test if this works or not
+			//"[1] free [Leviathan-Class Submarine] units appear <by consuming this unit>", //test if this works or not - doesn't work
+			"Can transform to [Leviathan-Class Submarine]",
 			"Great Person - [War]",
 			"Can be earned through combat",
 			"Unbuildable",
