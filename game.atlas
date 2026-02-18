@@ -27,14 +27,14 @@ NationIcons/Green Wardens
   index: -1
 NationIcons/Seekers of Eden
   rotate: false
-  xy: 1084, 12
+  xy: 1192, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Menagerie
   rotate: false
-  xy: 1192, 12
+  xy: 1300, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -62,77 +62,77 @@ ReligionIcons/Lost Eden
   index: -1
 TileSets/FantasyHex/Tiles/Glass Crater
   rotate: false
-  xy: 1300, 48
+  xy: 1516, 48
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lady of the Torch
   rotate: false
-  xy: 1300, 4
+  xy: 1516, 4
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mountain Faces
   rotate: false
-  xy: 1380, 80
+  xy: 1596, 80
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sacred Red Rock
   rotate: false
-  xy: 1420, 84
+  xy: 1676, 84
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Secret Glade
   rotate: false
-  xy: 1420, 44
+  xy: 1716, 80
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Beastmaster
   rotate: false
-  xy: 1300, 84
+  xy: 1516, 84
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Homesteader
   rotate: false
-  xy: 1340, 84
+  xy: 1556, 84
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lord's Watchdog
   rotate: false
-  xy: 1340, 48
+  xy: 1556, 48
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mutant War Elephant
   rotate: false
-  xy: 1340, 12
+  xy: 1556, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mutant War Hippo
   rotate: false
-  xy: 1380, 44
+  xy: 1636, 84
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/War Hyena Wrangler
   rotate: false
-  xy: 1460, 84
+  xy: 1756, 84
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -161,6 +161,20 @@ UnitIcons/Lord's Watchdog
 UnitIcons/Mutant War Elephant
   rotate: false
   xy: 976, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Mutant War Hippo
+  rotate: false
+  xy: 1084, 12
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/War Hyena Wrangler
+  rotate: false
+  xy: 1408, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
