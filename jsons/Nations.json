@@ -174,6 +174,13 @@
 		"declaringFriendship": "Eden welcomes those who are kind. May the Lord walk with you.",
 		"tradeRequest": "Consider this a means of almsgiving.",
 
+		"neutralDenouncing": "Sadly, you have fallen out of the Lord's graces.",
+		"hateDenouncing": "Heretic that you are, may your crops wilt, fruits rot, and fields fall fallow! Begone ye from Eden!",
+		
+		"acceptingDemand": "By the grace of the Lord, yes.",
+		"neutralRejectingDemand": "This ill suits us.",
+		"hateRejectingDemand": "Eden shall not suffer for your sake, heathen.",
+
 		"outerColor": [137, 204, 73],
 		"innerColor": [0, 61, 20],
 		"favoredReligion": "Lost Eden",
@@ -249,6 +256,13 @@
 		"declaringFriendship": "Oh ho, rare to see someone who isn't afraid of us! You'll make a fine trade partner.",
 		"tradeRequest": "May I interest you in a bargain, perhaps?",
 
+		"neutralDenouncing": "Our traders have said this and that about you - we think you're not a good trading partner anymore.",
+		"hateDenouncing": "Well, if it isn't the bad investment walking! Seems like the hyenas are the only ones glad to see you - you do have very crunchy legs they're waiting to bite into.",
+		
+		"acceptingDemand": "This is one bargain of a deal!",
+		"neutralRejectingDemand": "Ah, no no - you need to haggle more.",
+		"hateRejectingDemand": "This agreement is only fit for the dogs.",
+
 		"outerColor": [74, 79, 21],
 		"innerColor": [255, 123, 66],
 		"favoredReligion": "Polytheism",
@@ -323,6 +337,13 @@
 		"declaringFriendship": "We are glad to see you. Let's work together, towards a greener future!",
 		"tradeRequest": "Our sales and marketing department agree, this deal would be quite profitable!",
 
+		"neutralDenouncing": "We noticed you haven't been very eco-friendly lately, and as such with deep apology we must cut ties.",
+		"hateDenouncing": "Stop that! Why can't you stop hurting the environment with your presence?!.",
+		
+		"acceptingDemand": "This is an ecologically sound deal.",
+		"neutralRejectingDemand": "We'd prefer it if this is more ecologically viable.",
+		"hateRejectingDemand": "This is unsustainable in the long run.",
+
 		"outerColor": [92, 82, 68],
 		"innerColor": [144, 196, 106],
 		"favoredReligion": "Green Way",
@@ -392,6 +413,13 @@
 		"declaringFriendship": "I respect those who respect nature, and friend, you look like nature respects you.",
 		"tradeRequest": "Some of our campers need to earn their trading badge, you see...",
 
+		"neutralDenouncing": "We must cut ties, the campers are starting to tell stories of your deeds as horror stories at the campfire.",
+		"hateDenouncing": "Consider yourself banned from every national park we Wardens are in from now on!",
+		
+		"acceptingDemand": "That's a-ok to me!",
+		"neutralRejectingDemand": "Sorry camper, just a little bit more!",
+		"hateRejectingDemand": "That won't do, camper - you're not getting any badges soon.",
+
 		"outerColor": [240, 206, 144],
 		"innerColor": [39, 94, 5],
 		"favoredReligion": "Naturism",
@@ -460,6 +488,13 @@
 		"denounced": "Careful, now. You are in dangerous waters.",
 		"declaringFriendship": "This might be a breach of protocol, but we'll spare you for last.",
 		"tradeRequest": "We require supplies. That being said, we're currently open to reimburse.",
+
+		"neutralDenouncing": "We roll like the tides - sometimes we ebb, sometimes we flow. Right now, it is the latter.",
+		"hateDenouncing": "We shall relish it when we can finally strip the flesh from your sunken bones.",
+		
+		"acceptingDemand": "According to protocol, we accept.",
+		"neutralRejectingDemand": "Unacceptable.",
+		"hateRejectingDemand": "Subpar by any standards. Such a leaky thing will never be accepted by us.",
 
 		"outerColor": [24, 18, 105],
 		"innerColor": [0, 207, 145],
