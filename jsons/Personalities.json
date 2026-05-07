@@ -21,6 +21,7 @@
 		"diplomacy": 10,
 		"loyal": 10,
 		"expansion": 10,
+		"denounceWillingness": 10,
 		
 		"priorities": {
 			"Adaptation": 10,
@@ -57,6 +58,7 @@
 		"diplomacy": 4,
 		"loyal": 8,
 		"expansion": 5,
+		"denounceWillingness": 5,
 		
 		"priorities": {
 			"Adaptation": 10,
@@ -91,6 +93,7 @@
 		"diplomacy": 5,
 		"loyal": 3,
 		"expansion": 6,
+		"denounceWillingness": 7,
 		
 		"priorities": {
 			"Adaptation": 0,
@@ -125,6 +128,7 @@
 		"diplomacy": 9,
 		"loyal": 8,
 		"expansion": 5,
+		"denounceWillingness": 3,
 		
 		"priorities": {
 			"Adaptation": 30,
@@ -159,6 +163,7 @@
 		"diplomacy": 8,
 		"loyal": 9,
 		"expansion": 5,
+		"denounceWillingness": 5,
 		
 		"priorities": {
 			"Adaptation": 30,
@@ -193,6 +198,7 @@
 		"diplomacy": 1,
 		"loyal": 10,
 		"expansion": 7,
+		"denounceWillingness": 8,
 		
 		"priorities": {
 			"Adaptation": 10,
