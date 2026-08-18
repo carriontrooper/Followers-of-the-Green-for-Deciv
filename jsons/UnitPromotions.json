@@ -42,7 +42,8 @@
 		"name": "Horse Tamer",
 		"uniques": [
 			"Mounted",
-			"Gain [1]-[10] [Food] <upon ending a turn in a [Horses] tile>"
+			//"Gain [1]-[10] [Food] <upon ending a turn in a [Horses] tile>"
+			"Instantly gain [20] [Stored Food] <in [Capital] cities> <upon ending a turn in a [Horses] tile>"
 		]
 	},
 	{
@@ -60,7 +61,8 @@
 	{
 		"name": "Deer Tamer",
 		"uniques": [
-			"Gain [1]-[10] [Food] <upon ending a turn in a [Deer] tile>",
+			//"Gain [1]-[10] [Food] <upon ending a turn in a [Deer] tile>",
+			"Instantly gain [20] [Stored Food] <in [Capital] cities> <upon ending a turn in a [Deer] tile>",
 			"Can transform to [Mutant Deer Rider] <costs [+50 Gold] stats> <for units with [Deer Tamer]> <removing the [Deer Tamer] promotion/status>"
 		]
 	},
@@ -87,7 +89,7 @@
 	{
 		"name": "Elephant Tamer",
 		"uniques": [
-			"Gain [5]-[20] [Production] <upon ending a turn in a [Hostile Fauna] tile>",
+			"Gain [5]-[20] [Faith] <upon ending a turn in a [Hostile Fauna] tile>",
 			"Can transform to [Mutant War Elephant] <costs [+200 Gold] stats> <for units with [Elephant Tamer]> <removing the [Elephant Tamer] promotion/status>"
 		]
 	},
@@ -101,7 +103,8 @@
 	{
 		"name": "Hog Wrangler",
 		"uniques": [
-			"Gain [1]-[10] [Food] <upon ending a turn in a [Hogs] tile>",
+			//"Gain [1]-[10] [Food] <upon ending a turn in a [Hogs] tile>",
+			"Instantly gain [20] [Stored Food] <in [Capital] cities> <upon ending a turn in a [Hogs] tile>",
 			"Can transform to [Mutant Hog Rider] <costs [+70 Gold] stats> <for units with [Hog Wrangler]> <removing the [Hog Wrangler] promotion/status>"
 		]
 	},
